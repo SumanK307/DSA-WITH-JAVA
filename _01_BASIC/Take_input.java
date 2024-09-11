@@ -12,7 +12,9 @@ public class Take_input {
     float b = sc.nextFloat();
     float sum = a+b;
     System.out.println(sum); 
+    System.out.println("sum is:"+(a+b)); 
     System.out.println(name1+name2); 
+
    }
 }
 
