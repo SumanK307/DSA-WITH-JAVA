@@ -1,5 +1,5 @@
 package _01_BASIC;
-class First{
+class D01_First{
     public static void main(String args[]) {
         System.out.print("HEllo suman!\n");
         System.out.println("HEllo suman!");

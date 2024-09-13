@@ -1,6 +1,6 @@
 package _01_BASIC;
 import java.util.*;
-public class Take_input {
+public class D02_Take_input {
     public static void main(String args[]) {
     Scanner sc = new Scanner(System.in);  // take input from user
     String name1 = sc.next();
