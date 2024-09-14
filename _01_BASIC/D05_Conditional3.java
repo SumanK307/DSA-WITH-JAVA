@@ -6,7 +6,7 @@ public class D05_Conditional3 {
         int  n = sc.nextInt();
     int i=0;
     while (i < n) {
-        System.out.println(i);
+        System.out.println(i+" ");
         i++;
     }
 
