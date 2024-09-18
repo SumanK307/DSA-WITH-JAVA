@@ -1,6 +1,6 @@
 package _01_BASIC;
 
-public class D04_Conditional2 {
+public class D04_ElseIf {
     public static void main(String args[]) {
         int time = 22;
         if (time < 10) {
