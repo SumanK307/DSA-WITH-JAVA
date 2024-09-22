@@ -3,8 +3,9 @@ import java.util.*;
 public class D12_Break{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int i = 0;
-        while (i < 10) {
+        int n = sc.nextInt();
+        int i = 1;
+        while (i < n) {
             System.out.println(i);
             i++;
             if (i == 4) {
