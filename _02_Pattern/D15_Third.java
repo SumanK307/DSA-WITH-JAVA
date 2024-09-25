@@ -8,6 +8,11 @@ public class D15_Third {
         System.out.print("Enter the value of n:");
         int n = sc.nextInt();
         int i, j;
-
+        for (i = 0; i < n; i++) {
+            for (j = 0; j < i; j++) {
+                System.out.print(" *");
+            }
+            System.out.print("\n");
+        }
     }
 }
