@@ -7,5 +7,13 @@ public class D18_Sixth {
         System.out.print("Enter the value of n:");
         int n = sc.nextInt();
         int i, j, k;
+        for(i=n;i>=1;i--)
+    {
+        for(j=1;j<i;j++)
+        {
+            System.out.print(j);
+        }
+        System.out.print("\n");
+    }
     }
 }
