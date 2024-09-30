@@ -1,4 +1,5 @@
 package _02_Pattern;
+
 import java.util.Scanner;
 
 public class D19_seventh {
@@ -7,15 +8,13 @@ public class D19_seventh {
         System.out.print("Enter the value of n:");
         int n = sc.nextInt();
         int i, j, k;
-        k=0;
-for(i=1;i<n;i++)
-    {
-        for(j=1;j<i;j++)
-        {
-            k++;
-            System.out.print(k);
+        k = 0;
+        for (i = 1; i < n; i++) {
+            for (j = 1; j < i; j++) {
+                k++;
+                System.out.print(k);
+            }
+            System.out.print("\n");
         }
-        System.out.print("\n");
-    }
     }
 }
