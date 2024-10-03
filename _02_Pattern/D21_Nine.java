@@ -1,5 +1,4 @@
 package _02_Pattern;
-
 import java.util.*;
 
 public class D21_Nine {
@@ -7,7 +6,7 @@ public class D21_Nine {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the value of n:");
         int n = sc.nextInt();
-        int i, j, k;
-        k = 0;
+        int i, j;
+        int k = 0;
     }
 }
