@@ -1,4 +1,5 @@
 package _02_Pattern;
+
 import java.util.*;
 
 public class D21_Nine {
@@ -7,22 +8,16 @@ public class D21_Nine {
         System.out.print("Enter the value of n:");
         int n = sc.nextInt();
         int i, j;
-        int k = 0;
-        for(i=1;i<=n;i++)
-    {
-        for(j=1;j<=n;j++)
-        {
-            if(i==1|| i==n || j==1 || j==n)
-           {
-            System.out.print("*");
-           } 
-            else
-            {
-                System.out.print(" ");
+        for (i = 1; i <= n; i++) {
+            for (j = 1; j <= n; j++) {
+                if (i == 1 || i == n || j == 1 || j == n) {
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
             }
-        }   
-        System.out.print("\n");
-        
-    }
+            System.out.print("\n");
+
+        }
     }
 }
