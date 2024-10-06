@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class D01_Function {
     public static int calculateSum(int a, int b) {
-        int sum = a + b;
-        return sum;
+        //int sum = a + b;
+        //return sum;
+        return a+b;
     }
 
     public static void main(String[] args) {
