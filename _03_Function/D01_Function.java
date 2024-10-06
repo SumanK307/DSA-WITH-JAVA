@@ -14,8 +14,8 @@ public class D01_Function {
         int n = sc.nextInt();
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int sum = calculateSum(a, b);
-        System.out.println("Sum of 2 numbers is:" + sum);
-        //System.out.println("Sum of 2 numbers is:" + calculateSum(a, b));
+        // int sum = calculateSum(a, b);
+        // System.out.println("Sum of 2 numbers is:" + sum);
+        System.out.println("Sum of 2 numbers is:" + calculateSum(a, b));
     }
 }
