@@ -18,6 +18,6 @@ public class D04_Forth {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number:");
         int marks = sc.nextInt();
-        
+        Details(marks);
     }
 }
