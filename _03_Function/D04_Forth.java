@@ -1,5 +1,7 @@
 package _03_Function;
+
 import java.util.Scanner;
+
 public class D04_Forth {
     static void Details(int marks) {
         if (marks < 35) {
@@ -12,9 +14,10 @@ public class D04_Forth {
             System.out.println("O grade");
         } else {
             System.out.println("Invalid marks entered");
-        } 
+        }
     }
-        public static void main(String[] args) {
+
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number:");
         int marks = sc.nextInt();
