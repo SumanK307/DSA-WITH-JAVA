@@ -3,8 +3,10 @@ import java.util.Scanner;
 
 public class D05_Fifth {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number:");
-        int marks = sc.nextInt();
+        Scanner in = new Scanner(System.in);
+        System.out.print("Input a string: ");
+        String str = in.nextLine();
+        System.out.print("The middle character in the string: " + middle(str)+"\n");
+
     }
 }
