@@ -1,5 +1,4 @@
 package _03_Function;
-
 import java.util.Scanner;
 
 public class D06_Sixth {
