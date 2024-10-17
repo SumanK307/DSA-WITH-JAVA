@@ -12,6 +12,8 @@ public class D07_Seventh {
     }
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        char c1 = "A";
+        char c1 = 'A';
+        char c2 = 'a';
+        compare(c1, c2);
     }
 }
