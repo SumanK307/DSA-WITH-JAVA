@@ -1,7 +1,7 @@
 package _03_Function;
 import java.util.Scanner;
 public class D07_Seventh {
-    public static void compare(char c1, char c2)
+    public static void compare(char c1 , char c2)
     {
         if ( (int)c1 > (int)c2 )
             System.out.println("Largest character from "+c1+ " and "+c2+" is= "+c1);
