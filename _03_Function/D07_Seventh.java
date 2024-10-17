@@ -12,6 +12,6 @@ public class D07_Seventh {
     }
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-
+        char c1 = "A";
     }
 }
