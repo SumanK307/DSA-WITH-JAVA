@@ -14,8 +14,9 @@ public class D08_Eight {
         }
     }
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the value of n:");
+        int n = sc.nextInt();
         Fibonacci(n);
     }
 }
