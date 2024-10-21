@@ -8,7 +8,7 @@ public class D01_Intro {
         System.out.println("Enter a String:");
         String n = sc.nextLine();
         System.out.println(n);
-        System.out.println("Enter any String:");
+        System.out.println("Enter a new String:");
         String m = sc.next();
         System.out.println(m);
         String name="suman";
