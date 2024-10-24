@@ -7,7 +7,7 @@ public class D15_Third {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the value of n:");
         int n = sc.nextInt();
-        int i, j;
+        int i,j;
         for (i = 0; i < n; i++) {
             for (j = 0; j < i; j++) {
                 System.out.print(" *");
