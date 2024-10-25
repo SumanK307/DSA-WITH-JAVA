@@ -9,7 +9,7 @@ public class D16_Fourth {
         int n = sc.nextInt();
         int i, j,k;
         for (i = 0; i < n; i++) {
-            for (j = i; j > 0; j--) {
+            for (j = i; j>0; j--) {
                 System.out.print(" ");
             }
             for (k = i; k < n; k++) {
