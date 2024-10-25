@@ -8,7 +8,7 @@ public class D16_Fourth {
         System.out.print("Enter the value of :");
         int n = sc.nextInt();
         int i, j,k;
-        for (i = 0; i < n; i++) {
+        for (i = 0; i<n; i++) {
             for (j = i; j>0; j--) {
                 System.out.print(" ");
             }
