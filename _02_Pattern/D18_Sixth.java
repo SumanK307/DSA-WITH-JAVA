@@ -7,7 +7,7 @@ public class D18_Sixth {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the value of n:");
         int n = sc.nextInt();
-        int i, j, k;
+        int i, j;
         for(i=n;i>=1;i--)
     {
         for(j=1;j<i;j++)
