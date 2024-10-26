@@ -1,4 +1,5 @@
 package _02_Pattern; 
+
 import java.util.*;
 
 public class D18_Sixth {
