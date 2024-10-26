@@ -1,4 +1,5 @@
 package _02_Pattern;
+
 import java.util.Scanner;
 
 public class D19_seventh {
