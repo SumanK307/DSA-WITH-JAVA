@@ -12,7 +12,7 @@ public class D18_Sixth {
     {
         for(j=1;j<i;j++)
         {
-            System.out.print(j);
+            System.out.print(j+" ");
         }
         System.out.print("\n");
     }
