@@ -17,7 +17,6 @@ public class D21_Nine {
                 }
             }
             System.out.print("\n");
-
         }
     }
 }
