@@ -5,7 +5,7 @@ import java.util.*;
 public class D21_Nine {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the value of :");
+        System.out.print("Enter the value of n:");
         int n = sc.nextInt();
         int i, j;
         for (i = 1; i <= n; i++) {
