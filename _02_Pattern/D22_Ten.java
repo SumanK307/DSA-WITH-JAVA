@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class D22_Ten {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the value of :");
+        System.out.print("Enter the value of n:");
         int N = sc.nextInt();
         int spaces = 2 * N - 1;
         int stars = 0;
