@@ -14,7 +14,7 @@ public class D22_Ten {
             }
             else {
                 spaces = spaces + 2;
-                stars--;
+                stars;
             }
             for (int j = 1; j <= stars; j++) {
                 System.out.print("*");
