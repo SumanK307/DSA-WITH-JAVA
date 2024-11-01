@@ -11,7 +11,7 @@ public class D03_Third {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the number:");
+        System.out.print("Enter the :");
         int a = sc.nextInt();
         int b = sc.nextInt();
         greaterNo(a, b);
