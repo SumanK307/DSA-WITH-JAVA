@@ -13,7 +13,7 @@ public class D04_Forth {
         } else if (marks >= 75 && marks < 100) {
             System.out.println("O grade!");
         } else {
-            System.out.println("Invalid marks entered");
+            System.out.println("Invalid marks entered.");
         }
     }
 
