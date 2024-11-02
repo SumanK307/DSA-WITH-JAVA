@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class D04_Forth {
     static void Details(int marks) {
         if (marks < 35) {
-            System.out.println("Fail");
+            System.out.println("Fail ");
         } else if (marks >= 35 && marks < 65) {
             System.out.println("B grade");
         } else if (marks >= 65 && marks < 75) {
