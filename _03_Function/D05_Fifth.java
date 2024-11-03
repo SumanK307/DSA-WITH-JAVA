@@ -7,7 +7,7 @@ public class D05_Fifth {
         int position;
         int length;
         if (str.length() % 2 == 0) {
-            position = str.length() / 2 - 1;
+            position = str.length()/2 - 1;
             length = 2;
         } else {
             position = str.length() / 2;
