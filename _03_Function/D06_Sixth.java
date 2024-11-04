@@ -10,7 +10,7 @@ public class D06_Sixth {
             result += digit;
             n = n / 10;
         } while (n > 0);
-        System.out.println("Output=" + result);
+        System.out.println("Output =" + result);
     }
 
     public static void main(String[] args) {
