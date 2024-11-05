@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class D07_Seventh {
     public static void compare(char c1 , char c2) {
-        if ((int) c1 > (int) c2)
+        if ((int) c1 > (int) c2){
             System.out.println("Largest character from " + c1 + " and " + c2 + " is= " + c1);
+        }
         else if ((int) c2 > (int) c1)
             System.out.println("Largest character from " + c1 + " and " + c2 + " is= " + c2);
         else
