@@ -10,9 +10,10 @@ public class D07_Seventh {
         else if ((int) c2 > (int) c1){
             System.out.println("Largest character from " + c1 + " and " + c2 + " is= " + c2);
         }
-        else
+        else{
             System.out.println("Both the characters " + c1 + " and " + c2 + " are same and value is= " + c1);
-    }
+        }
+        }
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
