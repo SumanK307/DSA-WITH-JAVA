@@ -8,7 +8,7 @@ public class D02_Second {
             System.out.print("invalid");
             return;
         } else if (n == 0) {
-            System.out.println("factorial =1");
+            System.out.println("factorial = 1");
             return;
         }
         int factorial = 1, i;
