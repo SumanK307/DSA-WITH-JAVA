@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class D02_Second {
     public static void printFactorial(int n) {
         if (n < 0) {
-            System.out.print("invalid");
+            System.out.print("invalid!");
             return;
         } else if (n == 0) {
             System.out.println("factorial = 1");
