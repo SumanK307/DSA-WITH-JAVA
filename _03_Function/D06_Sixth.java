@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class D06_Sixth {
     public static void test(int n) {
         int result = 0;
-        do {
+        do{
             result *= 10;
             int digit = n % 10;
             result += digit;
