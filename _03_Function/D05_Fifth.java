@@ -13,7 +13,7 @@ public class D05_Fifth {
             position = str.length()/2;
             length = 1;
         }
-        return str.substring(position, position + length);
+        return str.substring(position , position + length);
     }
 
     public static void main(String[] args) {
