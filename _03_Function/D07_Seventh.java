@@ -19,6 +19,7 @@ public class D07_Seventh {
         Scanner in = new Scanner(System.in);
         char c1 = 'A';
         char c2 = 'a';
+        System.out.println();
         compare(c1 , c2);
     }
 }
