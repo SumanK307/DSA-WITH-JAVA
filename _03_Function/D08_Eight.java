@@ -18,5 +18,6 @@ public class D08_Eight {
         System.out.println("Enter the value of n:");
         int n = sc.nextInt();
         Fibonacci(n);
+        System.out.println();
     }
 }
