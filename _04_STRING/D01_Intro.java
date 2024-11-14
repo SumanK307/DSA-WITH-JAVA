@@ -17,5 +17,6 @@ public class D01_Intro {
         System.out.println(name);
         System.out.println(fullName);
         System.out.println(sentance);
+        System.out.println();
     }
 }
