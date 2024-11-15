@@ -1,5 +1,5 @@
 package _05_ARRAY;
-
+import java.util.*;
 public class D01_First {
     public static void main(String[] args){
         Scanner var1 = new Scanner(System.in);
