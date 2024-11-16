@@ -18,7 +18,14 @@ public class D02_Second {
          }
      }
       System.out.println("Print Element:");
-     
+      for(int i=0;i<rows;i++)
+      {   System.out.print(" ");
+          for(int j=0;j<cols;j++)
+          {
+              System.out.print(numbers[i][j] + "  ");
+          }
+        System.out.println();
+      }
     }
 }
 
