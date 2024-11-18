@@ -1,5 +1,6 @@
 package _05_ARRAY;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class D03_Third {
@@ -18,5 +19,12 @@ public class D03_Third {
     {
         arr[i] = sc.nextInt();
     }
+    // Arrays.sort(arr);       //Sort any array
+     System.out.println("Print:");
+     for(int i=0 ; i<n ; i++)
+     {
+        System.out.println(arr[i]);
+     }
+     Arrays.sort(arr);
     }
 }
