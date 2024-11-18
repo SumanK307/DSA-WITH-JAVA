@@ -26,5 +26,9 @@ public class D03_Third {
         System.out.println(arr[i]);
      }
      Arrays.sort(arr);
+     /*************************For Each loop */
+   //   for(int arrs :arr){
+   //    System.out.print(arrs);
+   //   }
     }
 }
