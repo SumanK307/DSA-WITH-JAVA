@@ -20,5 +20,11 @@ public class D04_Four {
                 arr1[i][j] = sc.nextInt();
             }
         }
+        System.out.println("Entre Second array element:");
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                arr2[i][j] = sc.nextInt();
+            }
+        }
     }
 }
