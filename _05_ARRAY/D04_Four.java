@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class D04_Four {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-    //     System.out.print("Enter NO:");
-    //  int n = sc.nextInt();
-    //  int[] arr = new int[5];
-    System.out.print("Enter row no:");
+        // System.out.print("Enter NO:");
+        // int n = sc.nextInt();
+        // int[] arr = new int[5];
+        System.out.print("Enter row no:");
         int rows = sc.nextInt();
         System.out.print("Enter column no:");
         int cols = sc.nextInt();
