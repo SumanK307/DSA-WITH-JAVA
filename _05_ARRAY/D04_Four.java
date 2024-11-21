@@ -3,6 +3,18 @@ package _05_ARRAY;
 import java.util.Scanner;
 
 public class D04_Four {
+
+    // *******************************Sum of two
+    // array*****************************//
+
+    public static void sum(int arr1[][], int arr2[][], int rows, int cols) {
+        System.out.println("Sum of array is:");
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                System.out.print(arr1[i][j] + " ");
+            }
+            System.out.println();
+        }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // System.out.print("Enter NO:");
