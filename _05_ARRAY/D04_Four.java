@@ -54,5 +54,6 @@ public class D04_Four {
                 arr2[i][j] = sc.nextInt();
             }
         }
+        sum(arr1, arr2, rows, cols);
     }
 }
