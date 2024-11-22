@@ -40,9 +40,15 @@ public class D04_Four {
         System.out.println("Multiplication of array is:");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
-
+                int mul[][] = new int[rows][cols];
+                mul[i][j] = 0;
+                for (int k = 0; k < rows; k++) {
+                    mul[i][j] = mul[i][j] + arr1[i][k] * arr2[k][j];
+                }
+                System.out.print(" " + mul[i][j]);
             }
         }
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // System.out.print("Enter NO:");
