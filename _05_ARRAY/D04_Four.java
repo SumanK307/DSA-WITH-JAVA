@@ -47,6 +47,7 @@ public class D04_Four {
                 }
                 System.out.print(" " + mul[i][j]);
             }
+        System.out.println();
         }
     }
     public static void main(String[] args) {
