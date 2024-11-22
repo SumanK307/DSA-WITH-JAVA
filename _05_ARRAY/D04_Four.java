@@ -30,7 +30,19 @@ public class D04_Four {
             }
             System.out.println();
         }
-    }}
+    }
+}
+
+    // ****************************************multiplication of two
+    // array****************************//
+
+    public static void multiplication(int arr1[][], int arr2[][], int rows, int cols) {
+        System.out.println("Multiplication of array is:");
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+
+            }
+        }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // System.out.print("Enter NO:");
