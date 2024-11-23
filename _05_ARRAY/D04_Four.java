@@ -60,6 +60,9 @@ public class D04_Four {
             for (int j = 0; j < cols; j++) {
                 System.out.print(" " + arr1[j][i]);
             }
+            System.out.println();
+        }
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // System.out.print("Enter NO:");
