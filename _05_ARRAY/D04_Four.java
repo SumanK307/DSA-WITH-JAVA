@@ -88,5 +88,6 @@ public class D04_Four {
         }
         sum(arr1, arr2, rows, cols);
         multiplication(arr1, arr2, rows, cols);
+        transpose(arr1, rows, cols);
     }
 }
