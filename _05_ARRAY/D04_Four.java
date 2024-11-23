@@ -50,6 +50,12 @@ public class D04_Four {
         System.out.println();
         }
     }
+
+    // ************************************Transpose of
+    // matrix**********************************//
+
+    public static void transpose(int arr1[][], int rows, int cols) {
+        System.out.println("transpose of array is:");
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // System.out.print("Enter NO:");
