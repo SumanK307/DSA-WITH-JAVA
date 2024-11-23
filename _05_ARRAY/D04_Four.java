@@ -56,6 +56,10 @@ public class D04_Four {
 
     public static void transpose(int arr1[][], int rows, int cols) {
         System.out.println("transpose of array is:");
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                System.out.print(" " + arr1[j][i]);
+            }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // System.out.print("Enter NO:");
