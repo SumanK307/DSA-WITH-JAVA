@@ -8,7 +8,7 @@ public class D04_Four {
     // array*****************************//
 
     public static void sum(int arr1[][], int arr2[][], int rows, int cols) {
-        System.out.println("Sum of array is:");
+        System.out.println("Sum of Array is:");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 System.out.print(arr1[i][j] + " ");
