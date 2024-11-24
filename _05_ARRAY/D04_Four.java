@@ -37,7 +37,7 @@ public class D04_Four {
     // array****************************//
 
     public static void multiplication(int arr1[][], int arr2[][], int rows, int cols) {
-        System.out.println("Multiplication of array is:");
+        System.out.println("Multiplication of Array is:");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 int mul[][] = new int[rows][cols];
