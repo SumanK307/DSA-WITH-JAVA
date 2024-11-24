@@ -74,7 +74,7 @@ public class D04_Four {
         int cols = sc.nextInt();
         int arr1[][] = new int[rows][cols];
         int arr2[][] = new int[rows][cols];
-        System.out.println("Entre first array element:");
+        System.out.println("Entre first Array element:");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 arr1[i][j] = sc.nextInt();
