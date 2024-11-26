@@ -12,5 +12,6 @@ public class D05_Five {
             arr[i] = sc.nextInt();
         System.out.println(Arrays.toString(arr));
         System.out.print(" Enter target Element which you want to Find: ");
+        int target = sc.nextInt()
     }
 }
