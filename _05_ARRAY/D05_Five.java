@@ -10,5 +10,7 @@ public class D05_Five {
         System.out.print(" Enter " + n + " Elements: "); 
         for(int i=0; i<n; i++)
             arr[i] = sc.nextInt();
+        System.out.println(Arrays.toString(arr));
+        System.out.print(" Enter target Element which you want to Find: ");
     }
 }
