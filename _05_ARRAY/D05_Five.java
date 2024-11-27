@@ -14,7 +14,10 @@ public class D05_Five {
                 return mid;
             else if(arr[mid]> target)
                 end = mid-1;
-
+                else
+                start = mid +1;
+        }
+        return -1;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
