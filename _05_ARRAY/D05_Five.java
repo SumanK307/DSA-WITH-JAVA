@@ -30,5 +30,6 @@ public class D05_Five {
         System.out.println(Arrays.toString(arr));
         System.out.print(" Enter target Element which you want to Find: ");
         int target = sc.nextInt();
+        System.out.println(target + " Found at Index: " + search(arr, target));
     }
 }
