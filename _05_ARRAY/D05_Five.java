@@ -52,5 +52,7 @@ public class D05_Five {
         System.out.print(" Enter target Element which you want to Find: ");
         int target = sc.nextInt();
         System.out.println(target + " Found at Index: " + search(arr, target));
+        int f=FirstOccu(arr, target);
+        System.out.println(target + " First Accurance at Index: " + f);  
     }
 }
