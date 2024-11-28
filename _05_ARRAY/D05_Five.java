@@ -19,6 +19,14 @@ public class D05_Five {
         }
         return -1;
     }
+
+    //********************Find First Occurance in the array********************/
+    static int FirstOccu(int[] arr , int target){
+        int start = 0;
+        int end = arr.length-1;
+        int ans=-1;
+
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print(" Enter size of the Array: ");
