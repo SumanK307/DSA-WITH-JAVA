@@ -45,6 +45,15 @@ public class D05_Five {
         int start = 0;
         int end = arr.length-1;
         int ans=-1;
+        while(start<=end){
+            int mid = start + (end - start)/2;
+            if(arr[mid] == target){
+                ans = mid;
+                end=mid-1;
+            }
+            else if(target > arr[mid]){
+                start=mid+1;
+            }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print(" Enter size of the Array: ");
