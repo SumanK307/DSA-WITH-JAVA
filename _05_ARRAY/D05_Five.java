@@ -75,7 +75,6 @@ public class D05_Five {
     }
     return start;
 }
-    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print(" Enter size of the Array: ");
@@ -90,5 +89,6 @@ public class D05_Five {
         System.out.println(target + " Found at Index: " + search(arr, target));
         int f=FirstOccu(arr, target);
         System.out.println(target + " First Accurance at Index: " + f);  
+        System.out.println("Total no of Accurance of "+PeakElement(arr)); 
     }
 }
