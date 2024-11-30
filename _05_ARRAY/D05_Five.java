@@ -60,6 +60,12 @@ public class D05_Five {
         } 
         return ans;
     }
+    static int PeakElement(int[] arr){
+        int start = 0;
+        int end = arr.length-1;
+        int mid;
+
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print(" Enter size of the Array: ");
