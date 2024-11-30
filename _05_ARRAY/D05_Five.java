@@ -69,6 +69,12 @@ public class D05_Five {
            if(arr[mid] < arr[mid+1]){
                start=mid+1;
            }
+           else{
+            end=mid;
+        }
+    }
+    return start;
+}
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
