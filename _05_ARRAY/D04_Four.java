@@ -24,6 +24,7 @@ public class D04_Four {
             }
             System.out.println();
             System.out.println(" =");
+        }
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 System.out.print(arr1[i][j] + arr2[i][j] + " ");
@@ -31,7 +32,7 @@ public class D04_Four {
             System.out.println();
         }
     }
-}
+
 
     // ****************************************multiplication of two
     // array****************************//
