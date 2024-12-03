@@ -30,5 +30,9 @@ public class D07_Seven {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
+        printArray(arr,n);
+        System.out.print("Enter the sum value of two element:");
+        int s=sc.nextInt();
+        System.out.println("No of term which sum equl to s :"+Count(arr,s));
     }
 }
