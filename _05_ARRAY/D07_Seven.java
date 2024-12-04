@@ -23,7 +23,7 @@ public class D07_Seven {
     }
 
     //**********************Find two element sum equal to target****************************/
-    static int Count(int[] arr,int s){
+    static int unique(int[] arr){
         int c=0;
         for (int i = 0; i < arr.length; i++) {
             for (int j = i+1; j < arr.length; j++){
@@ -48,5 +48,6 @@ public class D07_Seven {
         System.out.print("Enter the sum value of two element:");
         int s=sc.nextInt();
         System.out.println("No of term which sum equl to s :"+Count(arr,s));
+        System.out.println("Unique element is:"+unique(arr));
     }
 }
