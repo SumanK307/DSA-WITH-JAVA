@@ -26,8 +26,15 @@ public class D07_Seven {
     static int Count(int[] arr,int s){
         int c=0;
         for (int i = 0; i < arr.length; i++) {
-            for (int j = i+1; j < arr.length; j++) {
+            for (int j = i+1; j < arr.length; j++){
+                if(arr[i]+arr[j]==s){
+                    c++;
+                }
+            }
+        }
+        return c;
     }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = new int[10];
