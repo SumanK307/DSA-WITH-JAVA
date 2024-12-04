@@ -21,6 +21,12 @@ public class D07_Seven {
         }
         return c;
     }
+
+    //**********************Find two element sum equal to target****************************/
+    static int Count(int[] arr,int s){
+        int c=0;
+
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = new int[10];
