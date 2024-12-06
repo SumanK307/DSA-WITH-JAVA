@@ -3,6 +3,25 @@ package _05_ARRAY;
 import java.util.Scanner;
 
 public class D08_Eight {
+    static void printArray(int[] arr ,int n){
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i]+" ");
+        }
+        System.out.println();
+    }
+    //**********************(Q.1)By using Extra space Rotate Array***********************/
+    static int[] Rotate(int[] arr , int k,int n){       //Array Function
+        k=k%n;
+        int[] ans = new int[n];  
+        int j=0;
+        for (int i = n-k; i < n; i++) {
+            ans[j++]=arr[i];
+        }
+        for (int i = 0; i < n-k; i++) {
+            ans[j++]=arr[i];            
+        }
+        return ans;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = new int[10]; 
