@@ -56,7 +56,9 @@ static void RotateEasy(int[] arr,int k,int n){
         System.out.print("Enter the index number which step do you want to rotate:");
         int k=sc.nextInt();
         int[] ans=Rotate(arr,k,n);           //Q.1
-
+        System.out.print("After rotation Array without extra space:");      //Q.2
+        RotateEasy(arr, k,n);
+        printArray(arr, n);
 
     }
-}
+
