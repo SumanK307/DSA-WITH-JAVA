@@ -23,13 +23,19 @@ public class D08_Eight {
         return ans;
     }
 
-    //**********************(Q.1)By using Extra space Rotate Array***********************/
-    static int[] Rotate(int[] arr , int k,int n){       //Array Function
-        k=k%n;
-        int[] ans = new int[n];  
-        int j=0;
-
+    //*********************(Q.2)Without using extra space Rotate Array*********************/
+    static void swap(int[] arr, int i,int j){
+        arr[i]=arr[i]+arr[j];
+        arr[j]=arr[i]-arr[j];
+        arr[i]=arr[i]-arr[j];
+}
+static void reverse(int[] arr,int i,int j){
+    while(i<j){
+        swap(arr,i,j);
+        i++;
+        j--;  
     }
+}
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = new int[10]; 
