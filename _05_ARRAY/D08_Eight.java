@@ -22,6 +22,14 @@ public class D08_Eight {
         }
         return ans;
     }
+
+    //**********************(Q.1)By using Extra space Rotate Array***********************/
+    static int[] Rotate(int[] arr , int k,int n){       //Array Function
+        k=k%n;
+        int[] ans = new int[n];  
+        int j=0;
+
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = new int[10]; 
