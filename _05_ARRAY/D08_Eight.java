@@ -42,7 +42,7 @@ static void RotateEasy(int[] arr,int k,int n){
     reverse(arr, n-k, n-1);
     reverse(arr, 0, n-1);
 }
-}
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = new int[10]; 
@@ -62,3 +62,4 @@ static void RotateEasy(int[] arr,int k,int n){
 
     }
 
+}
