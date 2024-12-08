@@ -12,5 +12,13 @@ public class D09_Nine {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
+        System.out.print("Original Element:");
+        printArray(arr,n);
+        System.out.print("Enter no of Query:");
+        int q=sc.nextInt();
+        int[] ans=FreQuencyArray(arr,n);
+        while (q>0) {
+            System.out.print("Enter no to be search:"); 
+            int x=sc.nextInt();
     }    
 }
