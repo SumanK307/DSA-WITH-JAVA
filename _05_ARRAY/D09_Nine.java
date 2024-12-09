@@ -20,6 +20,14 @@ public class D09_Nine {
         while (q>0) {
             System.out.print("Enter no to be search:"); 
             int x=sc.nextInt();
+            if(ans[x]>0){
+                System.out.println("YES");
+            }        
+            else{
+                System.out.println("NO");
+            }
+            q--;
         }
+        
     }    
 }
