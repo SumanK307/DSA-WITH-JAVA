@@ -40,7 +40,6 @@ public class D09_Nine {
                 System.out.println("NO");
             }
             q--;
-        }
-        
+        } 
     }    
 }
