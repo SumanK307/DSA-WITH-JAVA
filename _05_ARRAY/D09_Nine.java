@@ -3,6 +3,13 @@ package _05_ARRAY;
 import java.util.Scanner;
 
 public class D09_Nine {
+    static int[] FreQuencyArray(int[] arr,int n){
+        int[] freq =new int[100001];
+        for(int i=0;i<n;i++){
+            freq[arr[i]]++;
+        }
+        return freq;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of array:");
