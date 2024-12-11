@@ -8,6 +8,15 @@ public class D10_ten {
 
     System.out.println();
  }
+
+ static void reverse(int[] var0, int var1, int var2) {
+  while(var1 < var2) {
+     swap(var0, var1, var2);
+     ++var1;
+     --var2;
+  }
+
+}
     public static void main(String[] args) {
         Scanner var1 = new Scanner(System.in);
       System.out.print("Enter the size of array:");
