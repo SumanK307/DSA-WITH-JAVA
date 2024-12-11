@@ -15,7 +15,11 @@ public class D10_ten {
      ++var1;
      --var2;
   }
-
+}
+static void swap(int[] var0, int var1, int var2) {
+  var0[var1] += var0[var2];
+  var0[var2] = var0[var1] - var0[var2];
+  var0[var1] -= var0[var2];
 }
     public static void main(String[] args) {
         Scanner var1 = new Scanner(System.in);
