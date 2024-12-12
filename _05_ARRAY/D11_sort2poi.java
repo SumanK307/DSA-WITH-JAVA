@@ -38,5 +38,8 @@ public class D11_sort2poi {
         }
         System.out.print("Original Array:");
         printArray(arr,n);
+        System.out.print("sort normal process:");
+        sort(arr,n);
+        printArray(arr,n);
     }
 }
