@@ -35,5 +35,8 @@ public class D11_2Sort {
         }
         System.out.print("Original Array:");
         printArray(arr,n);
+        System.out.print("Sort two pointer process:");
+        sortZeroOne(arr, n);
+        printArray(arr,n);
     }    
 }
