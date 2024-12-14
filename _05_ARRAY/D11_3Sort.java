@@ -9,7 +9,11 @@ public class D11_3Sort {
         }
         System.out.println();
     }
-
+    static void swap(int[] arr, int i,int j){
+        arr[i]=arr[i]+arr[j];
+        arr[j]=arr[i]-arr[j];
+        arr[i]=arr[i]-arr[j];
+    }
     static void sortEvenOdd(int[] arr,int n){  
         int left=0,right=n-1;
         while(left<right){
@@ -17,7 +21,15 @@ public class D11_3Sort {
                 swap(arr,left,right);
                 left++;
                 right--;
+            }if(arr[left]%2==0){
+                left++;
             }
+            if(arr[right]%2!=0){
+                right--;
+            }
+        }
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of array:");
