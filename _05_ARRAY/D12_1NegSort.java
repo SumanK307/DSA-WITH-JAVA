@@ -21,6 +21,23 @@ public class D12_1NegSort {
         arr[j]=arr[i]-arr[j]; 
         arr[i]=arr[i]-arr[j];
 }
+    //************************* (Q..1) sort Arr̥ay of -ve containing element square*************************/
+    static int[] sortSquares(int[] arr,int n){
+        int left=0,right=n-1;
+        int[] ans = new int [n];
+        int k=0;
+        while(left <= right){
+            if(Math.abs(arr[left]) > Math.abs(arr[right])){
+                ans[k++]=arr[left]*arr[left];
+                left++;
+            }
+            else{
+                ans[k++]=arr[right]*arr[right];
+                right--;
+            }
+        }
+        return ans;
+    }
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of array:");
