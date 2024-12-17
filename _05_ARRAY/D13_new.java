@@ -29,5 +29,16 @@ public class D13_new {
         int[] pre = PrefixSum(arr, n); 
         System.out.print("Sum of element in Array:");
         printArray(pre,n);
+        System.out.print("Enter no of Query:");
+        int q=sc.nextInt();
+        while (q-->0){
+            System.out.print("Enter the first index:"); 
+            int x=sc.nextInt();
+            System.out.print("Enter the second index:"); 
+            int y=sc.nextInt();
+            int sum = pre[y] - pre[x-1];
+            System.out.println("Sum b/w two index:"+sum);
+            
+        }
     }
 }
