@@ -3,7 +3,7 @@ package _05_ARRAY;
 import java.util.*;
 public class D13_Partition{
     static void printArray(int[] arr ,int n){
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++){
             System.out.print(arr[i]+" ");
         }
         System.out.println();
@@ -11,7 +11,7 @@ public class D13_Partition{
     static boolean PartitionOfArray(int[] arr,int[] pre , int n){
         for (int i = 0; i < n; i++) {
             if (arr[i]*2 == pre[n-1]){
-                System.out.println("Hoga");
+                System.out.println("Partition Hoga");
                 return true;
             }
         }
