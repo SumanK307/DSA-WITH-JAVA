@@ -36,7 +36,7 @@ public class D11_sort2poi {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
-        System.out.print("Original Array:");
+        System.out.print("Original Array is:");
         printArray(arr,n);
         System.out.print("sort normal process:");
         sort(arr,n);
