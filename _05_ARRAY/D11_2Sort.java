@@ -39,7 +39,7 @@ public class D11_2Sort {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
-        System.out.print("Original Array:");
+        System.out.print("Original Array is:");
         printArray(arr,n);
         System.out.print("Sort two pointer process:");
         sortZeroOne(arr, n);
