@@ -24,7 +24,7 @@ public class D14_tut {
                 arr[i][j]=sc.nextInt();
             }
         }
-        System.out.println("Original Array:");
+        System.out.println("Original Array is:");
         printArray(arr);
     }
 }
