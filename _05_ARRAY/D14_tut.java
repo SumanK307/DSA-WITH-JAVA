@@ -16,6 +16,16 @@ public class D14_tut {
         arr[j][i]=arr[i][j]-arr[j][i];
         arr[i][j]=arr[i][j]-arr[j][i];
     }
+    static void reverseArray(int[] arr){ 
+        int i=0,j=arr.length-1;
+        while(i<j){
+            arr[i]=arr[i]+arr[j];
+            arr[j]=arr[i]-arr[j];
+            arr[i]=arr[i]-arr[j];
+            i++;
+            j--;
+        }
+    }
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter the size of Row:");
