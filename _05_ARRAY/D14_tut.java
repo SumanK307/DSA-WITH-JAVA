@@ -51,5 +51,8 @@ public class D14_tut {
         }
         System.out.println("Original Array is:");
         printArray(arr);
+        Transpose(arr, r, c);               //Q.1
+        System.out.println("After transpose Array is:");
+        printArray(arr);
     }
 }
