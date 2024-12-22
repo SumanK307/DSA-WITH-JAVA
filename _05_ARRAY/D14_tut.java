@@ -26,6 +26,16 @@ public class D14_tut {
             j--;
         }
     }
+    //*******************(Q.1)Transpose array with the help of same array***********************//
+    static void Transpose(int[][] arr,int r,int c){
+        for (int i = 0; i < c; i++) {
+            for (int j = i; j < r; j++) { 
+                if(i!=j){
+                    swap(arr, i, j);
+                    }
+                }
+            }
+        }
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter the size of Row:");
