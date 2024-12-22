@@ -11,6 +11,11 @@ public class D14_tut {
             System.out.println();
         }
     }
+    static void swap(int[][] arr, int i,int j){
+        arr[i][j]=arr[i][j]+arr[j][i];
+        arr[j][i]=arr[i][j]-arr[j][i];
+        arr[i][j]=arr[i][j]-arr[j][i];
+    }
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter the size of Row:");
