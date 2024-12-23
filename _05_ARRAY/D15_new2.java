@@ -35,6 +35,12 @@ public class D15_new2 {
                 }
             }
         }
+        static void Rotate90(int[][] rotate,int r){ 
+            Transpose(rotate, r, r);
+           for (int i = 0; i < rotate.length; i++){
+                reverseArray(rotate[i]);
+           }  
+        }
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter the size of Row:");
@@ -50,8 +56,9 @@ public class D15_new2 {
         }
         System.out.println("Original Array:");
         printArray(arr);
-        int[][] tran= Transpose(arr, r, c);                 
+        //int[][] tran= Transpose(arr, r, c);                 
         System.out.println("After 90 degree rotation array is:");
         Rotate90(arr, r);
         printArray(arr);
+    }
 }
