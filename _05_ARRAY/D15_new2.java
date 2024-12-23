@@ -50,5 +50,8 @@ public class D15_new2 {
         }
         System.out.println("Original Array:");
         printArray(arr);
-    }
+        int[][] tran= Transpose(arr, r, c);                 
+        System.out.println("After 90 degree rotation array is:");
+        Rotate90(arr, r);
+        printArray(arr);
 }
