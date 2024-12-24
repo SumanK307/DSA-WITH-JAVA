@@ -3,6 +3,7 @@ package _05_ARRAY;
 import java.util.Scanner;
 
 public class D08_Eight {
+    
     static void printArray(int[] arr ,int n){
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i]+" ");
