@@ -24,7 +24,7 @@ public class D08_Eight {
     }
 
     //*********************(Q.2)Without using extra space Rotate Array*********************/
-    static void swap(int[] arr, int i,int j){
+    static void swap(int[] arr , int i,int j){
         arr[i]=arr[i]+arr[j];
         arr[j]=arr[i]-arr[j];
         arr[i]=arr[i]-arr[j];
