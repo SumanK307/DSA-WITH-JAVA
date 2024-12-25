@@ -11,7 +11,12 @@ public class D16_Passcal {
             System.out.println();
         }
     }
-
+    // Pascal triangle of n row 
+    static int[][] Pascal(int n){
+        int[][] ans = new int[n][];
+        for (int i = 0; i < n; i++){
+            ans[i]=new int[i+1];        //this is create colummn
+            ans[i][0]=ans[i][i]=1;      //this is inisilais the value of 1st and last index
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter the no of Row for Pascal Question:");
