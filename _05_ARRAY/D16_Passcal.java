@@ -11,8 +11,12 @@ public class D16_Passcal {
             System.out.println();
         }
     }
-    
+
     public static void main(String[] args) {
-        
+        Scanner sc= new Scanner(System.in);
+        System.out.print("Enter the no of Row for Pascal Question:");
+        int n = sc.nextInt();
+        int[][] ans = Pascal(n);
+        printArray(ans);
     }
 }
