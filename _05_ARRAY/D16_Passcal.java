@@ -17,6 +17,12 @@ public class D16_Passcal {
         for (int i = 0; i < n; i++){
             ans[i]=new int[i+1];        //this is create colummn
             ans[i][0]=ans[i][i]=1;      //this is inisilais the value of 1st and last index
+            for (int j = 1; j < i; j++) {
+                ans[i][j]=ans[i-1][j]+ans[i-1][j-1];
+            }
+        }
+        return ans;
+    }
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         System.out.print("Enter the no of Row for Pascal Question:");
