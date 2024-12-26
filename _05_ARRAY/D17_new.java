@@ -3,6 +3,28 @@ package _05_ARRAY;
 import java.util.Scanner;
 
 public class D17_new {
+    static void printArray(int[][] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
+// Spiral Array
+    static void SpiralOrder(int[][] arr, int r, int c) {
+        int topRow = 0, bottomRow = r - 1, leftCol = 0, rightCol = c - 1;
+        int totalElement = 0;
+
+        while (totalElement < r * c) {
+            // toprow --> leftcol to rightcol
+            for (int i = leftCol; i <= rightCol; i++) {
+                System.out.print(arr[topRow][i] + " ");
+                totalElement++;
+            }
+            topRow++;
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of Row:");
