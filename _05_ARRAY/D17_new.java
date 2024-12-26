@@ -12,5 +12,14 @@ public class D17_new {
         System.out.println("Enter Array Element:");
         int[][] arr = new int[r][c];
         int[][] arr2 = new int[r][c];
+        for (int i = 0; i < r; i++) {
+            for (int j = 0; j < c; j++) {
+                arr[i][j] = sc.nextInt();
+            }
+        }
+        System.out.println("Original Array:");
+        printArray(arr);
+        SpiralOrder(arr2 , r, c);
+         printArray(arr2);
     }
 }
