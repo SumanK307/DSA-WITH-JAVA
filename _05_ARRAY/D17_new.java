@@ -24,7 +24,28 @@ public class D17_new {
                 totalElement++;
             }
             topRow++;
+            // rightcol --> toprow to bottomrow
+            for (int i = topRow; i <= bottomRow && totalElement < r * c; i++) {
+                System.out.print(arr[i][rightCol] + " ");
+                totalElement++;
+            }
+            rightCol--;
 
+            // bottomrow --> rightcol to leftcol
+            for (int i = rightCol; i >= leftCol && totalElement < r * c; i--) {
+                System.out.print(arr[bottomRow][i] + " ");
+                totalElement++;
+            }
+            bottomRow--;
+
+            // leftCol --> bottomRow to topRow
+            for (int i = bottomRow; i >= topRow && totalElement < r * c; i--) {
+                System.out.print(arr[i][leftCol] + " ");
+                totalElement++;
+            }
+            leftCol++;
+        }
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of Row:");
