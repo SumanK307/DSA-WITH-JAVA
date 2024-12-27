@@ -65,5 +65,9 @@ public class D18_PrintSppiral {
                 arr[i][j] = sc.nextInt();
             }
         }
+        System.out.println("Original Array:");
+        printArray(arr);
+        SpiralOrder(arr2 , r, c);
+        printArray(arr2);
     }
 }
