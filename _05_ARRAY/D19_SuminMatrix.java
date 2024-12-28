@@ -56,6 +56,11 @@ public class D19_SuminMatrix {
         }
         System.out.println("Original Array:");
         printArray(arr);
-
+        System.out.println("Enter rectangle boundaries l1,r1,l2,r2");
+        int l1 = sc.nextInt();
+        int r1 = sc.nextInt();
+        int l2 = sc.nextInt();
+        int r2 = sc.nextInt();
+        System.out.println("Ractangle Sum:"+findSum(arr,l1,r1,l2,r2));
     }
 }
