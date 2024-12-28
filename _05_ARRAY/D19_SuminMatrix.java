@@ -23,7 +23,24 @@ public class D19_SuminMatrix {
             for (int i = 0; i < r; i++) {
                 arr[i][j] += arr[i-1][j];
             }
-        
+        }
+    }
+        static int findSum(int[][] arr,int l1, int r1,int l2, int r2){
+            int ans=0 ,sum=0 , up=0 ,left=0 , leftUp=0;
+            findPrefixSum(arr);
+            sum=arr[l2][r2];
+            if(r1 >= 1){
+                left = arr[l2][r1-1];
+            }
+            if(l1 >= 1){
+                up=arr[l1-1][r2];
+            }
+            if(r1 >= 1 && l1 >= 1){
+                leftUp = arr[l1-1][r1-1];
+            }
+            ans= sum-up-left+leftUp;
+            return ans;
+        }
     public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of Row:");
