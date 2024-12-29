@@ -1,6 +1,7 @@
 package _06_ARRAY_LIST;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class D01_First {
@@ -54,5 +55,15 @@ public class D01_First {
         l.add(4);
         l.add(true);
         System.out.println(l);
+        
+        // Q.1 reverse array list
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(55);
+        list.add(10);
+        list.add(45);
+        list.add(22);
+        System.out.println("Original List"+list);
+        Collections.reverse(list);
+        System.out.println("Original List"+list);
     }
 }
