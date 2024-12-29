@@ -48,5 +48,11 @@ public class D01_First {
         //check element is exist
         boolean ans = l1.contains(Integer.valueOf(3));
         System.out.println(ans);
+        //if you dont specify class you can put everything 
+        ArrayList l = new ArrayList<>();
+        l.add("hkldfj");
+        l.add(4);
+        l.add(true);
+        System.out.println(l);
     }
 }
