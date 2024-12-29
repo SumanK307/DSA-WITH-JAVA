@@ -17,5 +17,36 @@ public class D01_First {
         l1.add(9);
         l1.add(15);
         l1.add(3);
+        //get an element at index i
+        System.out.println(l1.get(2));  // 15
+
+        //print through loop
+        for (int k = 0; k < l1.size(); k++) {
+            System.out.print(l1.get(k)+" ");    // 5,9,15,3
+        }
+        System.out.println();
+        
+        //print directly
+        System.out.println(l1);             // 5,9,15,3
+
+        //adding element at index i 
+        l1.add(1,20);       //5,20,9,15,3
+        System.out.println(l1);
+
+        //modify at index i
+        l1.set(2,13);       //5,20,13,15,3
+        System.out.println(l1);
+
+        //removing an Element at index i
+        l1.remove(3);               //5,20,13,3
+        System.out.println(l1);
+
+        //removing an element
+        l1.remove(Integer.valueOf(5));  //20,13,3
+        System.out.println(l1);
+
+        //check element is exist
+        boolean ans = l1.contains(Integer.valueOf(3));
+        System.out.println(ans);
     }
 }
