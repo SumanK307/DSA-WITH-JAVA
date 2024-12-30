@@ -10,5 +10,9 @@ public class D01_Start {
          st.push(2);
          st.pop();
          System.out.println(st);
+         System.out.println("Peek Element:"+st.peek());
+         System.out.println("Total Element:"+st.size());
+         System.out.println("IS Empty:"+st.isEmpty());
+
     }
 }
