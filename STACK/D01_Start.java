@@ -8,5 +8,7 @@ public class D01_Start {
          st.push(3);
          st.push(8);
          st.push(2);
+         st.pop();
+         System.out.println(st);
     }
 }
