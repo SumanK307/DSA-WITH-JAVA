@@ -9,7 +9,7 @@ public class D02_Imp {
          Stack<Integer> st = new Stack<>();
          System.out.print("Enter the no of element:");
          int n = sc.nextInt(); 
-         System.out.print("traverse");
+         System.out.print("traverse in stack");
          // normal order
          for (int i = 1; i <= n; i++) {
             int ele = sc.nextInt();
