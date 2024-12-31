@@ -15,5 +15,13 @@ public class D02_Imp {
             st.push(ele);
          }
          System.out.println(st);
+          // reverse order
+          Stack<Integer> rt = new Stack<>();
+          while(st.size()>0){
+             //int x = st.peek();
+             rt.push(st.pop());
+             //st.pop();
+          }
+          System.out.println(rt);
     }
 }
