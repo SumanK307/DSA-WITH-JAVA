@@ -23,5 +23,10 @@ public class D02_Imp {
              //st.pop();
           }
           System.out.println(rt);
+          Stack<Integer> gt = new Stack<>();
+         while(rt.size()>0){
+            gt.push(rt.pop());
+         }
+         System.out.println(gt);
     }
 }
