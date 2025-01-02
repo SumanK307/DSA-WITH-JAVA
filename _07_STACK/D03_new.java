@@ -17,5 +17,14 @@ public class D03_new {
          System.out.print("Enter the index:");
          int ind = sc.nextInt();
          Stack<Integer> tt = new Stack<>();
+         //**************Insertion in Stack**************/
+         while (st.size()>ind) {
+            tt.push(st.pop());
+         } 
+         st.push(ele);
+         while (tt.size()>0) {
+            st.push(tt.pop());
+         }
+         System.out.println(st);
     }    
 }
