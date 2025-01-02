@@ -12,5 +12,10 @@ public class D03_new {
          st.push(2);
          st.push(6);         
          System.out.println(st);
+         System.out.print("Enter the element:");
+         int ele = sc.nextInt();
+         System.out.print("Enter the index:");
+         int ind = sc.nextInt();
+         Stack<Integer> tt = new Stack<>();
     }    
 }
