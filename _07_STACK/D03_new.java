@@ -26,5 +26,14 @@ public class D03_new {
             st.push(tt.pop());
          }
          System.out.println(st);
+         //**************Deletion in Stack**************/
+         // while(st.size()>ind+1){
+         //    tt.push(st.pop());
+         // }
+         // st.pop();
+         // while (tt.size()>0){
+         //    st.push(tt.pop());
+         // }
+         // System.out.println(st);
     }    
 }
