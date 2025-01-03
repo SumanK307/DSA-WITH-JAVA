@@ -37,5 +37,8 @@ public class D04_insertion2 {
          System.out.println(st);
          InsertAtBottom(st, 12);
          System.out.println(st); 
+         // //reverse(st);
+        // reverseStack(st);
+        // System.out.print(st+" ");
     }
 }
