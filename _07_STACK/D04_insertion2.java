@@ -4,6 +4,16 @@ import java.util.Scanner;
 import java.util.Stack;
 
 public class D04_insertion2 {
+    public static void InsertAtBottom(Stack<Integer> st,int ele){
+        if(st.size() == 0){ 
+            st.push(ele);
+            return;
+        }
+        int tem = st.pop();
+        InsertAtBottom(st,ele);
+        st.push(tem);
+    }
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
          Stack<Integer> st = new Stack<>();
