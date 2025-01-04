@@ -31,6 +31,7 @@ public class D05_ArrayImp {
         //     System.out.print(arr[i]+" ");
         //     st.push(arr[i]);
         // }
-
+         //*************Display through Recursion****************/
+         displayRec(st);
     }
 }
