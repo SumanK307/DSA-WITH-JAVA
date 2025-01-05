@@ -24,7 +24,42 @@ public class D06_LLImp {
             display(temp.next);
             System.out.print(temp.data+" ");
         }
-        
+        void displayRev(){
+            Node temp = head;
+            while (temp != null) {
+                System.out.print(temp.data+" ");
+                temp = temp.next;
+            }
+            System.out.println();
+        }
+        int pop(){
+            if(head == null){
+                System.out.println("Stack is Empty");
+                return -1;
+            }
+            int temp = head.data;
+            head = head.next;
+            size--;
+            return temp;
+        }
+        int peek(){
+            if(head == null){
+                System.out.println("Stack is Empty");
+                return -1;
+            }
+            return head.data;
+        }
+        boolean isEmpty(){
+            if(size == 0){
+                return true;
+            }
+            return false;
+        }
+        int size(){
+            return size;
+        }
+
+    }
     public static void main(String[] args) {
     LLStack st = new LLStack();
         st.push(4);
