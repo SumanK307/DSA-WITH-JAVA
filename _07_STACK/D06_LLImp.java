@@ -11,6 +11,19 @@ public class D06_LLImp {
     public static class LLStack{
         private Node head = null;
         private int size = 0;
+        void push(int data){
+            Node temp = new Node(data);
+            temp.next = head;
+            head = temp;
+            size++; 
+        }
+        void display(Node head){
+            Node temp = head;
+            if(head == null)
+                return;
+            display(temp.next);
+            System.out.print(temp.data+" ");
+        }
         
     public static void main(String[] args) {
     LLStack st = new LLStack();
