@@ -1,6 +1,17 @@
 package _07_STACK;
 
 public class D06_LLImp {
+    public static class Node{
+        int data;
+        Node next;
+        Node(int data){
+            this.data = data;
+        }
+    }
+    public static class LLStack{
+        private Node head = null;
+        private int size = 0;
+        
     public static void main(String[] args) {
     LLStack st = new LLStack();
         st.push(4);
