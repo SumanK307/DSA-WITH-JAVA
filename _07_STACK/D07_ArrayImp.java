@@ -32,6 +32,26 @@ public class D07_ArrayImp {
             ind--;
             return top;
         }
+        boolean isEmpty(){
+            if(ind == 0)
+                return true;
+            return false;
+        }
+        boolean isFull(){
+            if(ind == arr.length)
+                return true;
+            return false;
+        }
+        void display(){
+            for (int i = 0; i < ind; i++) {
+                System.out.print(arr[i]+" ");
+            }
+            System.out.println();
+        }
+        int size(){
+            return ind;
+        }
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
          Stack st = new Stack();
