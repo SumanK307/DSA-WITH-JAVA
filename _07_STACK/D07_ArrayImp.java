@@ -15,6 +15,23 @@ public class D07_ArrayImp {
              arr[ind] = x; 
              ind++;
         }
+        int peek(){
+            if(ind==0){
+                System.out.println("Stack is Empty.");
+                return -1;
+            }
+        return arr[ind-1];
+        }
+        int pop(){
+            if(ind==0){
+                System.out.println("Stack is Empty.");
+                return -1;
+            }
+            int top = arr[ind-1];
+            arr[ind-1] = 0;
+            ind--;
+            return top;
+        }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
          Stack st = new Stack();
