@@ -36,5 +36,8 @@ public class D08_new {
          System.out.println(st);
          InsertAtBottom(st, 12);
          System.out.println(st); 
+         // //reverse(st);
+        // reverseStack(st);
+        // System.out.print(st+" ");
     }
 }
