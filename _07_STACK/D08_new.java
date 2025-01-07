@@ -3,7 +3,15 @@ package _07_STACK;
 import java.util.*;
 
 public class D08_new {
-
+    public static void InsertAtBottom(Stack<Integer> st,int ele){
+        if(st.size() == 0){ 
+            st.push(ele);
+            return;
+        }
+        int tem = st.pop();
+        InsertAtBottom(st,ele);
+        st.push(tem);
+    }
     public static void reverse(Stack<Integer> st){ 
         if (st.size() == 0) 
             return;
