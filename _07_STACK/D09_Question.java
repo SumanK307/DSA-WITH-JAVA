@@ -11,6 +11,17 @@ public class D09_Question {
             if(ch == '('){
                 st.push(ch);
             }
+            else{
+                if(st.size()==0)
+                    return false;
+                if(st.peek()=='(')
+                    st.pop();               
+            }
+        }
+            if(st.size() > 0)
+                return false;
+            return true;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter any String:");
