@@ -1,6 +1,6 @@
 package _07_STACK;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class D09_Question {
     public static boolean isBalance(String str){
@@ -27,5 +27,6 @@ public class D09_Question {
         System.out.print("Enter any String:");
         String str = sc.nextLine();
         System.out.println(str);
+        System.out.println(isBalance(str));
     }
 }
