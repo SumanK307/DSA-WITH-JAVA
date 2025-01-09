@@ -36,6 +36,9 @@ public class D10_Ques {
             for(int i = 0; i < n; i++){
                 arr[i] = sc.nextInt();
             }
-
+            Print(arr, n);
+            //int[] res = removeAllDuplicate(arr, n);
+            removeAllDuplicate(arr, n);
+            //Print(res, res.length);
     }
 }
