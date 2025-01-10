@@ -14,7 +14,23 @@ public class _10_NextGreater {
         }
         System.out.println();
     } 
-    
+    public static int[] nextGreater(int[] arr,int n){
+        Stack<Integer> st = new Stack<>();
+        int[] res = new int[n];
+        res[n-1] = -1;
+        st.push(arr[n-1]);
+        for (int i = n-2; i >=0; i--){
+            while(!st.isEmpty() && st.peek() <= arr[i]){
+                st.pop();
+            }
+            if(st.size() == 0)
+                res[i] = -1;
+            else
+                res[i] = st.peek();
+            st.push(arr[i]);
+        }
+        return res;
+    }
     public static void main(String[] args) {
          Scanner sc = new Scanner(System.in);
             System.out.print("Enter Number:");
