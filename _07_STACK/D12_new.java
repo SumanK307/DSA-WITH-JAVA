@@ -15,6 +15,23 @@ public class D12_new {
         int[] res = new int[n];
         res[0] = 1;
         st.push(0);
+        for (int i = 1; i < n; i++) {
+            while (!st.isEmpty() && arr[st.peek()] <= arr[i] ){
+                st.pop();
+            }
+            // while (arr[i] < arr[st.peek()] && !st.isEmpty()) {
+            //     res[i] = i - st.peek();
+            // }
+            if (st.isEmpty()) {
+                res[i] = i + 1;
+            } 
+            else {  
+                res[i] = i - st.peek();
+            }
+            st.push(i);
+        }
+        return res;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Number:");
