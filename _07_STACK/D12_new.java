@@ -40,5 +40,8 @@ public class D12_new {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
+        Print(arr, n);
+        int[] res = stockSpan(arr, n);
+        Print(res, n);
     }
 }
