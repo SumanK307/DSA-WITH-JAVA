@@ -27,6 +27,16 @@ public class D13_tut {
                 op.pop();
             }
             else{
+                if(ch == '+' || ch == '-'){
+                    int v2 =val.pop();
+                    int v1 =val.pop();
+                    if(op.peek() == '+')    val.push(v1+v2);
+                    if(op.peek() == '-')    val.push(v1-v2);
+                    if(op.peek() == '*')    val.push(v1*v2);
+                    if(op.peek() == '/')    val.push(v1/v2);
+                    op.pop();
+                    op.push(ch);
+                }
                 
     }
 }
