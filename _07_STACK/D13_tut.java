@@ -37,6 +37,28 @@ public class D13_tut {
                     op.pop();
                     op.push(ch);
                 }
-                
+                if (ch == '*' || ch == '/') {
+                    if (op.peek() == '*' || op.peek() == '/') {
+                    int v2 =val.pop();
+                    int v1 =val.pop();
+                    if(op.peek() == '*')    val.push(v1*v2);
+                    if(op.peek() == '/')    val.push(v1/v2);
+                    op.pop();
+                    op.push(ch); 
+                    }
+                    else    op.push(ch);
+                }
+            }
+        }
+        while (val.size()>1) {
+                    int v2 =val.pop();
+                    int v1 =val.pop();
+                    if(op.peek() == '+')    val.push(v1+v2);
+                    if(op.peek() == '-')    val.push(v1-v2);
+                    if(op.peek() == '*')    val.push(v1*v2);
+                    if(op.peek() == '/')    val.push(v1/v2);
+                    op.pop();
+        }
+        System.out.println(val.peek());  
     }
 }
