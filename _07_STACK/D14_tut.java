@@ -23,6 +23,16 @@ public class D14_tut {
 //                     String t = o + v1 + v2;
 //                     val.push(t);
 //                 }
-
+//                 op.pop();
+//             }
+//             else{
+//                 if(ch == '+' || ch == '-'){
+//                     String v2 =val.pop();
+//                     String v1 =val.pop();
+//                     char o = op.pop();
+//                     String t = o + v1 + v2;
+//                     val.push(t);
+//                     op.push(ch);
+//                 }
     }
 }
