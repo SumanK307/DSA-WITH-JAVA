@@ -33,5 +33,18 @@ public class D15_new {
                     val.push(t);
                     op.push(ch);
                 }
+                if (ch == '*' || ch == '/') {
+                    if (op.peek() == '*' || op.peek() == '/') {
+                        String v2 =val.pop();
+                        String v1 =val.pop();
+                        char o = op.pop();
+                        String t = v1+v2+o;
+                        val.push(t);
+                    op.push(ch); 
+                    }
+                    else    op.push(ch);
+                }
+            }
+        }
     }
 }
