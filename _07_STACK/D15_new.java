@@ -1,4 +1,5 @@
 package _07_STACK;
+import java.util.*;
 
 public class D15_new {
     public static void main(String[] args) {
@@ -46,5 +47,15 @@ public class D15_new {
                 }
             }
         }
+        while (val.size()>1) {
+            String v2 =val.pop();
+            String v1 =val.pop();
+            char o = op.pop();
+            String t = v1+v2+o;
+            val.push(t);
+            
+        }
+        String postfix = val.pop();
+        System.out.println(postfix);
     }
 }
