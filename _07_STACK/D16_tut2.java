@@ -20,4 +20,8 @@ public class D16_tut2 {
             //                 if(ch == '*')   val.push(v1*v2);
             //                 if(ch == '/')   val.push(v1/v2);
             //             }
+        //}
+        //         int ans = val.pop();
+        //         System.out.println(ans);
+        //     } 
 }
