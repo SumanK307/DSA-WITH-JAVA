@@ -53,7 +53,6 @@ public class D15_new {
             char o = op.pop();
             String t = v1+v2+o;
             val.push(t);
-            
         }
         String postfix = val.pop();
         System.out.println(postfix);
