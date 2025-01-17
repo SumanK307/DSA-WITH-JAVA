@@ -10,4 +10,8 @@ public class D18_tut4 {
 //         for (int i = prefix.length()-1; i >= 0; i--){
 //             char ch = prefix.charAt(i);
 //             int ascii = (int)ch;
+//if (ascii >= 48 && ascii <= 57) {
+    //                 String s = "" + ch;
+    //                 val.push(s);
+    //             } 
 }
