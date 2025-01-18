@@ -12,5 +12,12 @@ public class D19_tut5 {
                 String s = "" + ch;
                 val.push(s);
             } 
+            else {
+                String v2 = val.pop();
+                String v1 = val.pop();
+                String t = ch + v1 + v2;
+                val.push(t);
+            }
+    }
     }
 }
