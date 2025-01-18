@@ -1,4 +1,5 @@
 package _07_STACK;
+import java.util.*;
 
 public class D19_tut5 {
     public static void main(String[] args) {
@@ -19,5 +20,7 @@ public class D19_tut5 {
                 val.push(t);
             }
     }
+    String prefix = val.pop();
+        System.out.println("prefix:"+prefix);
     }
 }
