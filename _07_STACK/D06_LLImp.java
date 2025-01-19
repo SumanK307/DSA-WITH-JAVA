@@ -58,7 +58,6 @@ public class D06_LLImp {
         int size(){
             return size;
         }
-
     }
     public static void main(String[] args) {
     LLStack st = new LLStack();
