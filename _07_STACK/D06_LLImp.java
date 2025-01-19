@@ -34,7 +34,7 @@ public class D06_LLImp {
         }
         int pop(){
             if(head == null){
-                System.out.println("Stack is Empty");
+                System.out.println("Stack is Empty!");
                 return -1;
             }
             int temp = head.data;
