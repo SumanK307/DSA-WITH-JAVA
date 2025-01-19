@@ -65,6 +65,7 @@ public class D06_LLImp {
         st.push(3);
         st.push(7);
         st.push(9);
+        st.push(5);
         st.display(st.head);
         System.out.println();
         System.out.println(st.pop());        
