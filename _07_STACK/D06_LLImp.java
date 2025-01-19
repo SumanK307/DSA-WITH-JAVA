@@ -44,7 +44,7 @@ public class D06_LLImp {
         }
         int peek(){
             if(head == null){
-                System.out.println("Stack is Empty");
+                System.out.println("Stack is Empty!");
                 return -1;
             }
             return head.data;
