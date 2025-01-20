@@ -70,7 +70,7 @@ public class D06_LLImp {
         System.out.println();
         System.out.println(st.pop());        
         st.display(st.head);
-        System.out.println();
+        System.out.println(); 
         System.out.println(st.peek());
         System.out.println(st.isEmpty());
     }
