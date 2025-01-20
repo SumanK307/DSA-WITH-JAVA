@@ -20,6 +20,7 @@ public class D20_tut8 {
                     val.push("("+t+")");
                 }
         }
-        
+        String infix = val.pop();
+        System.out.println("infix:"+infix);
     }
 }
