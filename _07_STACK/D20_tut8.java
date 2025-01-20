@@ -14,6 +14,12 @@ public class D20_tut8 {
                 val.push(s);
             } 
             else {
-                
+                String v1 = val.pop();
+                    String v2 = val.pop();
+                    String t = v1 + ch + v2;
+                    val.push("("+t+")");
+                }
+        }
+        
     }
 }
