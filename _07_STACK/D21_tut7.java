@@ -12,5 +12,12 @@ public class D21_tut7 {
     //                 String s = "" + ch;
     //                 val.push(s);
     //             } 
+    //else {
+        //                     String v2 = val.pop();
+        //                     String v1 = val.pop();
+        //                     String t = v1 + ch + v2;
+        //                     val.push("("+t+")");
+        //                 }
+        //         }
     }
 }
