@@ -13,6 +13,11 @@ public class D01_Into {
         q.add(9);
         q.add(3);
         q.add(2);
+        System.out.println(q);
+        q.remove();
+        q.poll();
+        System.out.println(q.element());            //q.peek();
+        System.out.println(q.size());
         while (!q.isEmpty()) {
             System.out.print(q.element()+" ");
             int x = q.remove();
