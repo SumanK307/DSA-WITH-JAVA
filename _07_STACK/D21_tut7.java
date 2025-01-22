@@ -1,5 +1,5 @@
 package _07_STACK;
-
+import java.util.*;
 public class D21_tut7 {
     public static void main(String[] args) {
         String postfix = "745*+27+-";
