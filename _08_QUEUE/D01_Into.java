@@ -13,6 +13,11 @@ public class D01_Into {
         q.add(9);
         q.add(3);
         q.add(2);
-        
+        while (!q.isEmpty()) {
+            System.out.print(q.element()+" ");
+            int x = q.remove();
+            //push into new queue
+
+        }
     }
 }
