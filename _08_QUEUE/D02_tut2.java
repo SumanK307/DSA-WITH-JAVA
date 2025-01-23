@@ -21,6 +21,41 @@ public class D02_tut2 {
             arr[++rear] = x;
             size++;
         }
+        void remove(){
+            if(size==0){
+                System.out.println("Queue is Empty.");
+                return;
+            }
+            front++;
+            size--;  
+        }
+        int peek(){
+            return arr[front];
+        }
+        boolean isEmpty(){
+            if(size == 0)
+                return true;
+            return false;
+        }
+        boolean isFull(){
+            if(size == arr.length)
+                return true;
+            return false;
+        }
+        void display(){
+            if (size == 0) {
+                System.out.println("Queue is Empty.");
+            }
+            else{
+                for (int i = front; i <= rear; i++) {
+                    System.out.print(arr[i]+" ");
+                }
+            }
+        }
+        int size(){
+            return size;
+        }
+    }
 
     public static void main(String[] args) {
         ArrQueue aq = new ArrQueue();
