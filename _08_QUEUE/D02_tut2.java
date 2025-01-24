@@ -1,58 +1,65 @@
 package _08_QUEUE;
+
 import java.util.*;
 
 public class D02_tut2 {
-    public static class ArrQueue{
+    public static class ArrQueue {
         private int[] arr = new int[7];
         private int size = 0;
         private int rear = -1;
         private int front = -1;
-        void add(int x){
-            if(isFull()){
+
+        void add(int x) {
+            if (isFull()) {
                 System.out.println("Queue is full!");
-                return; 
+                return;
             }
-            if(size == 0){   
+            if (size == 0) {
                 arr[++front] = x;
-                rear++; 
+                rear++;
                 size++;
                 return;
             }
             arr[++rear] = x;
             size++;
         }
-        void remove(){
-            if(size==0){
+
+        void remove() {
+            if (size == 0) {
                 System.out.println("Queue is Empty!");
                 return;
             }
             front++;
-            size--;  
+            size--;
         }
-        int peek(){
+
+        int peek() {
             return arr[front];
         }
-        boolean isEmpty(){
-            if(size == 0)
+
+        boolean isEmpty() {
+            if (size == 0)
                 return true;
             return false;
         }
-        boolean isFull(){
-            if(size == arr.length)
+
+        boolean isFull() {
+            if (size == arr.length)
                 return true;
             return false;
         }
-        void display(){
+
+        void display() {
             if (size == 0) {
                 System.out.println("Queue is Empty!");
-            }
-            else{
+            } else {
                 for (int i = front; i <= rear; i++) {
-                    System.out.print(arr[i]+" ");
+                    System.out.print(arr[i] + " ");
                 }
             }
         }
-        int size(){
+
+        int size() {
             return size;
         }
     }
@@ -74,8 +81,8 @@ public class D02_tut2 {
         aq.remove();
         aq.add(5);
         System.out.println(aq.peek());
-        System.out.println("r"+aq.rear);
-        System.out.println("f"+aq.front);
+        System.out.println("r" + aq.rear);
+        System.out.println("f" + aq.front);
         System.out.println(aq.peek());
         System.out.println(aq.size());
         System.out.println(aq.arr.length);
