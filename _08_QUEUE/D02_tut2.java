@@ -44,7 +44,7 @@ public class D02_tut2 {
         }
         void display(){
             if (size == 0) {
-                System.out.println("Queue is Empty.");
+                System.out.println("Queue is Empty!");
             }
             else{
                 for (int i = front; i <= rear; i++) {
