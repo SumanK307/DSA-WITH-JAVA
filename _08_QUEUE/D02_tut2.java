@@ -23,7 +23,7 @@ public class D02_tut2 {
         }
         void remove(){
             if(size==0){
-                System.out.println("Queue is Empty.");
+                System.out.println("Queue is Empty!");
                 return;
             }
             front++;
