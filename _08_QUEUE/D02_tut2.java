@@ -9,7 +9,7 @@ public class D02_tut2 {
         private int front = -1;
         void add(int x){
             if(isFull()){
-                System.out.println("Queue is full.");
+                System.out.println("Queue is full!");
                 return; 
             }
             if(size == 0){   
