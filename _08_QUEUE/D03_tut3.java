@@ -25,6 +25,29 @@ public class D03_tut3 {
             rear = temp; 
             size++; 
         }
+        void display(Node front){
+            Node temp = front;
+            if(front == null)
+                return;
+            System.out.print(temp.data+" ");
+            display(temp.next);
+        }
+        void displayRev(){
+            Node temp = front;
+            while (temp != null) {
+                System.out.print(temp.data+" ");
+                temp = temp.next;
+            }
+            System.out.println();
+        }
+        void remove(){
+            if(front == null){
+                System.out.println("Stack is Empty");
+                return;
+            }
+            front = front.next;
+            size--;
+        }
         int peek(){
             if(front == null){
                 System.out.println("Stack is Empty");
@@ -42,6 +65,7 @@ public class D03_tut3 {
             return size;
         }
     }
+
     public static void main(String[] args) {
         LL_Queue lq = new LL_Queue();
         lq.add(4);
