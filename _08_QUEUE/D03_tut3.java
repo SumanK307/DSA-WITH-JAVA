@@ -25,7 +25,23 @@ public class D03_tut3 {
             rear = temp; 
             size++; 
         }
-        
+        int peek(){
+            if(front == null){
+                System.out.println("Stack is Empty");
+                return -1;
+            }
+            return front.data;
+        }
+        boolean isEmpty(){
+            if(size == 0){
+                return true;
+            }
+            return false;
+        }
+        int size(){
+            return size;
+        }
+    }
     public static void main(String[] args) {
         LL_Queue lq = new LL_Queue();
         lq.add(4);
