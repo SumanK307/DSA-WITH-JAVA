@@ -50,6 +50,26 @@ public class D04_tut4 {
                 return true;
             return false;
         }
+        boolean isFull(){
+            if(size == arr.length)
+                return true;
+            return false;
+        }
+        void display(){
+            if (size == 0) {
+                System.out.println("Queue is Empty.");
+            }
+            else{
+                for (int i = 0; i <= n-1; i++) {
+                    System.out.print(arr[i]+" ");
+                }
+            }
+            System.out.println();
+        }
+        int size(){
+            return size;
+        }
+    }
     public static void main(String[] args) {
         CircularQueue cq = new CircularQueue();
         cq.add(1);
