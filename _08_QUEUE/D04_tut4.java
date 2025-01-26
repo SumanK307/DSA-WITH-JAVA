@@ -27,7 +27,29 @@ public class D04_tut4 {
             arr[++rear] = x;
             size++;
         }
-        
+        void remove(){
+            if(size==0){
+                System.out.println("Queue is Empty.");
+                return;
+            }
+            else if(front == n-1){
+                arr[front] = 0;
+                front = 0;
+                size--; 
+                return;
+            }
+            arr[front] = 0;
+            front++;
+            size--;  
+        }
+        int peek(){
+            return arr[front];
+        }
+        boolean isEmpty(){
+            if(size == 0)
+                return true;
+            return false;
+        }
     public static void main(String[] args) {
         CircularQueue cq = new CircularQueue();
         cq.add(1);
