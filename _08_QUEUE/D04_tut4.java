@@ -1,7 +1,33 @@
 package _08_QUEUE;
 
 public class D04_tut4 {
-
+    public static class CircularQueue{
+        int n = 10;
+        private int[] arr = new int[n];
+        private int size = 0;
+        private int rear = -1;
+        private int front = -1;
+        void add(int x){
+            if(isFull()){
+                System.out.println("Queue is full.");
+                return; 
+            }
+            else if(size == 0){   
+                arr[++front] = x;
+                rear++; 
+                size++;
+                return;
+            }
+            else if(n-1 == rear){
+                rear = 0;
+                arr[0] = x;
+                size++;
+                return;
+            }
+            arr[++rear] = x;
+            size++;
+        }
+        
     public static void main(String[] args) {
         CircularQueue cq = new CircularQueue();
         cq.add(1);
