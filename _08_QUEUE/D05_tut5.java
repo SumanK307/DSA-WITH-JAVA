@@ -2,9 +2,6 @@ package _08_QUEUE;
 import java.util.*;
 
 public class D05_tut5{
-
-    public static void main(String[] args) {
-        public static class Queue{
         Stack<Integer> s1 = new Stack<>();
         Stack<Integer> s2 = new Stack<>();
         private int size = 0;
@@ -26,6 +23,22 @@ public class D05_tut5{
             }
             size++;
         }
-        
+        void remove(){
+            if(s1.isEmpty()){
+                System.out.println("Queue is empty.");
+                return; 
+            }
+            s1.pop();
+            size--;
+        }
+        int peek(){
+            if(isEmpty()){
+                System.out.println("Queue Empty.");
+            }
+            return s1.peek();
+        }
+
+    public static void main(String[] args) {
+
     }
 }
