@@ -2,6 +2,7 @@ package _08_QUEUE;
 import java.util.*;
 
 public class D05_tut5{
+    public static class Queue{
         Stack<Integer> s1 = new Stack<>();
         Stack<Integer> s2 = new Stack<>();
         private int size = 0;
@@ -37,8 +38,19 @@ public class D05_tut5{
             }
             return s1.peek();
         }
-
+    }
     public static void main(String[] args) {
+        Queue q = new Queue();
+        q.add(1);
+        q.add(2);
+        q.add(3);
+        q.remove();
+        while (!q.isEmpty()) {
+            System.out.print(" "+q.peek());
+            q.remove();
+        }
+        System.out.println();
+        System.out.println(q.size);
 
     }
 }
