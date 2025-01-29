@@ -16,5 +16,8 @@ public class D07_tut7 {
         for (int i = 0; i < n; i++){
             arr[i] = sc.nextInt();
         }
+        System.out.print("Enter thye size of window:");
+        int k = sc.nextInt();
+        kWindow(arr,k);
     }
 }
