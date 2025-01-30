@@ -16,6 +16,12 @@ public class D01_tut1 {
             temp = temp.next;
         }
     }
+    public static void Display2(Node head){
+        Node temp = head;
+        if(temp == null){ return; }
+            System.out.print(temp.data+" ");
+            Display2(temp.next);
+    }
     public static void main(String[] args) {
         
     }
