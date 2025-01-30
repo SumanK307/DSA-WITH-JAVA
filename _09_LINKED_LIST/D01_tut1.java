@@ -34,6 +34,30 @@ public class D01_tut1 {
         System.out.println(a.next);     //LINKED_LIST._01_linkedList$Node@36baf30c
         System.out.println(b);          //LINKED_LIST._01_linkedList$Node@36baf30c
         System.out.println(c);          //LINKED_LIST._01_linkedList$Node@7a81197d   
-        
+        b.next = c;
+        c.next = d;
+        d.next = e; 
+    // For printting data 
+        System.out.println(a.data);             //3
+        System.out.println(a.next.data);        //5
+        System.out.println(a.next.next.data);   //6
+
+    // for printitng data by for loop(when no of node is given)
+        System.out.println("Print through Loop");
+        Node temp = a;
+        // for (int i = 0; i < 5; i++) {
+        //     System.out.print(temp.data+" ");
+        //     temp = temp.next;
+        // }
+    //*****************************// for printitng data by for loop(when no of node not given)
+    System.out.println("Print through While(Always use)");
+        while(temp != null){
+            System.out.print(temp.data+" ");
+            temp = temp.next;
+        }
+    System.out.println("\nPrint through function:");
+    Display(a);
+    System.out.println("\nPrint through recursion:");
+    Display2(a);
     }
 }
