@@ -23,6 +23,17 @@ public class D01_tut1 {
             Display2(temp.next);
     }
     public static void main(String[] args) {
+        Node a = new Node(3);
+        System.out.println(a.next);
+        Node b = new Node(5);
+        Node c = new Node(6);
+        Node d = new Node(8);
+        Node e = new Node(16);         
+        a.next = b;
+        System.out.println(a);          //LINKED_LIST._01_linkedList$Node@4617c264
+        System.out.println(a.next);     //LINKED_LIST._01_linkedList$Node@36baf30c
+        System.out.println(b);          //LINKED_LIST._01_linkedList$Node@36baf30c
+        System.out.println(c);          //LINKED_LIST._01_linkedList$Node@7a81197d   
         
     }
 }
