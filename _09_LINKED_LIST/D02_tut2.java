@@ -34,6 +34,9 @@ public class D02_tut2 {
     }
 }
     public static void main(String[] args) {
-        
+        LinkedList li = new LinkedList();
+        li.insertAtEnd(4);
+        li.insertAtEnd(5);
+        li.insertAtEnd(8);
     }
 }
