@@ -38,5 +38,6 @@ public class D02_tut2 {
         li.insertAtEnd(4);
         li.insertAtEnd(5);
         li.insertAtEnd(8);
+        li.Display();
     }
 }
