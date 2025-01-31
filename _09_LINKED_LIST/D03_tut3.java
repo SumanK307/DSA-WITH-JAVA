@@ -36,6 +36,7 @@ public class D03_tut3 {
         LinkedList li = new LinkedList();
         li.InsertAtHead(5);
         li.InsertAtHead(4);
-
+        li.InsertAtHead(8);
+        li.Display();
     }    
 }
