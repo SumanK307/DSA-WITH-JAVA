@@ -22,6 +22,55 @@ public class D04_tut4 {
                 temp = temp.next;
             }
         }
+        void insertAtEnd(int val) {
+            Node temp = new Node(val);
+            if (head == null) { 
+                head = temp;
+                tail = temp;
+            } else { 
+                tail.next = temp; 
+                tail = temp; 
+            }
+            size++;
+        }
+        void insertAtHead(int val){
+            Node temp = new Node(val);
+            if(head == null){           
+                head = temp;
+                tail = temp;
+            }
+            else{                       
+                temp.next = head;       
+                head = temp;            
+            }
+            size++;
+        }
+        void insertAtInd(int val, int ind) {
+            Node temp = new Node(val);
+            Node var = head;
+            if (ind == size) {
+                insertAtEnd(val);
+                return;
+            }
+            else if(ind == 0){
+                insertAtHead(val);
+                return;
+            } 
+            for (int i = 1; i <= ind - 1; i++) {
+                var = var.next;
+            }
+            temp.next = var.next;
+            var.next = temp;
+            size++;
+        }
+        int getIndVal(int ind){
+            Node temp = head;
+            for (int i = 1; i <= ind; i++) {
+                temp = temp.next;
+            }
+            return temp.data;
+        }
+    }
     public static void main(String[] args) {
         LinkedList li = new LinkedList();
         li.insertAtEnd(4);
