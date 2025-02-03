@@ -2,6 +2,26 @@ package _09_LINKED_LIST;
 
 
 public class D04_tut4 {
+    public static class Node {
+        int data;
+        Node next;
+
+        Node(int data) {
+            this.data = data;
+        }
+    }
+    public static class LinkedList {
+        Node head = null;
+        Node tail = null;
+        int size = 0;
+
+        void Display() {
+            Node temp = head;
+            while (temp != null) {
+                System.out.println(temp.data + " " + temp);  // temp -> print address
+                temp = temp.next;
+            }
+        }
     public static void main(String[] args) {
         LinkedList li = new LinkedList();
         li.insertAtEnd(4);
