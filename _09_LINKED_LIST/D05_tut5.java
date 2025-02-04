@@ -70,5 +70,7 @@ public class D05_tut5 {
         li.insertAtEnd(8);
         li.insertAtEnd(6);
         li.insertAtEnd(1);
+        li.Display();
+        li.deleteAtHead();
     }
 }
