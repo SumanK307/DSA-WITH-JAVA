@@ -32,6 +32,37 @@ public class D05_tut5 {
             }
             size++;
         }
+        void deleteAtHead(){
+            head = head.next;
+            size--;
+        }
+        void deleteAtInd(int ind){
+            if (ind == 0) {
+                deleteAtHead();
+                return;
+            }
+            else if(ind == size-1){
+                deleteAtend();
+                return;
+            }
+            Node temp = head;
+            for (int i = 1; i < ind ; i++) {
+                temp = temp.next;
+            }
+            temp.next = temp.next.next;
+            //tail = temp;
+            size--;
+        }
+        void deleteAtend(){
+            Node sec_last = head;
+            while (sec_last.next.next != null) {
+                sec_last = sec_last.next;
+            }
+            sec_last.next = null;
+            tail = sec_last;
+            size--;
+        }
+    }
     public static void main(String[] args) {
         
     }
