@@ -25,6 +25,41 @@ public class D06_tut6 {
             }
             size++;
         }
+        int search(int key){
+            Node temp  = head;
+            int ind = 0;
+            while(temp != null){
+            if(temp.data == key){
+                // System.out.println("Key found at index:"+ind);
+                return ind;
+            }
+            temp = temp.next;
+            ind++;
+        }
+        return -1;
+    }
+    //*************Search Recursivaly*************//
+        int searchRec(Node head ,int key){
+            Node temp  = head;
+            if(temp == null){
+                return -1;
+            }
+            if(temp.data == key){
+                return 0;
+            }
+            int ind = searchRec(temp.next, key);
+            return ind+1;
+        }
+        void Display(){
+            Node temp = head;
+            while (temp != null) {
+                System.out.print(temp.data+" ");
+                temp = temp.next;
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
         
     }
