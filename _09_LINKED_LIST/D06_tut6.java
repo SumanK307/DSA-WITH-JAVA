@@ -68,5 +68,9 @@ public class D06_tut6 {
         li.insertAtEnd(9);
         li.insertAtEnd(2);
         li.insertAtEnd(1);
+        li.Display();
+        System.out.println("Find at:"+li.searchRec(li.head, 2));
+        // System.out.println(li.head.data);
+        //System.out.println("Find at index:"+li.search(1));
     }
 }
