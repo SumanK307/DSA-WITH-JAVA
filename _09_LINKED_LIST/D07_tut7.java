@@ -55,5 +55,11 @@ public class D07_tut7 {
         li.insertAtEnd(2);
         li.insertAtEnd(1);
         li.Display();
+        li.Display();
+        li.reverse();
+        li.Display();
+        System.out.println(li.head.data);
+        System.out.println(li.tail.data);
+        System.out.println(li.size);
     }
 }
