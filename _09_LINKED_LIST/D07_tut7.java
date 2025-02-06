@@ -32,6 +32,20 @@ public class D07_tut7 {
             }
             size++;
         }
+        void reverse(){
+            Node prev = null;
+            Node curr = tail = head;  //tail=head; curr=tail; 
+            Node next;
+            while(curr != null){
+                next = curr.next;
+                curr.next = prev;
+                prev = curr;
+                curr = next;
+            }
+            head = prev;
+        }    
+    }
+
     public static void main(String[] args) {
         
     }
