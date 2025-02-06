@@ -47,6 +47,13 @@ public class D07_tut7 {
     }
 
     public static void main(String[] args) {
-        
+        LinkedList li = new LinkedList();
+        li.insertAtEnd(4);
+        li.insertAtEnd(5);
+        li.insertAtEnd(8);
+        li.insertAtEnd(9);
+        li.insertAtEnd(2);
+        li.insertAtEnd(1);
+        li.Display();
     }
 }
