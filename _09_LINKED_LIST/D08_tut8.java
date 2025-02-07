@@ -32,6 +32,25 @@ public class D08_tut8 {
             }
             size++;
         }
+        //******************Remove nth Node from end(Turtle rabit technique) */
+        Node removeNthNode(Node head , int n){
+            Node fast = head;
+            Node slow = head;
+            for (int j = 1; j <= n; j++){
+                fast = fast.next;
+            }
+            if(fast == null){
+                head = head.next;
+                return head;
+            }
+            while (fast.next!=null){ 
+                slow = slow.next;
+                fast = fast.next;
+            }
+            slow.next = slow.next.next;
+            return head;
+        }
+    }
 
     public static void main(String[] args) {
         
