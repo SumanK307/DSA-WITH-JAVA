@@ -53,6 +53,16 @@ public class D08_tut8 {
     }
 
     public static void main(String[] args) {
-        
+        LinkedList li = new LinkedList();
+        li.insertAtEnd(6);
+        li.insertAtEnd(2);
+        li.insertAtEnd(4);
+        li.insertAtEnd(1);
+        li.insertAtEnd(9);
+        li.insertAtEnd(7);
+        li.insertAtEnd(5);
+        li.insertAtEnd(9);
+        System.out.println("Original LL:");
+        li.Display(li.head);
     }
 }
