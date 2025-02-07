@@ -64,5 +64,13 @@ public class D08_tut8 {
         li.insertAtEnd(9);
         System.out.println("Original LL:");
         li.Display(li.head);
+                // Node tem = li.nthNode(li.head, 3); 
+                //Node tem2 = li.nthNode2(li.head, 3); 
+                System.out.println(); 
+                //System.out.println(tem2.data);
+                // Node te = li.removeNthNode(li.head, 3);
+                // li.Display(te);
+                // li.head = te;
+                // System.out.println(li.head.data);
     }
 }
