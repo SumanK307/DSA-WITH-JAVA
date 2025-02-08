@@ -32,6 +32,44 @@ public class D09_tut9 {
             }
             size++;
         }
+        Node middle(Node head) {
+            Node slow = head;
+            Node fast = head;
+            while (fast != null && fast.next != null) {
+                slow = slow.next;
+                fast = fast.next.next;
+            }
+            return slow;
+        }
+        boolean checkPalindrom(Node head){
+            if (head==null || head.next == null) {
+                return true;
+            }
+        //step 1 find mid
+            Node midNode = middle(head);
+        //step 2 reverse 2nd half(after mid)
+            Node prev = null;
+            Node curr = tail= midNode; 
+            Node next;
+            while (curr != null) {
+                next = curr.next;
+                curr.next = prev;
+                prev = curr;
+                curr = next;
+            }
+            Node right = prev;
+            Node left = head;
+        //step 3 check left half and right half
+        while(right != null){
+            if(left.data != right.data){
+                return false;
+            }
+            left = left.next;
+            right = right.next;
+        }
+            return true;
+        }
+    }
     public static void main(String[] args) {
         
     }
