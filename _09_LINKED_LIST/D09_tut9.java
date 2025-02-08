@@ -71,6 +71,14 @@ public class D09_tut9 {
         }
     }
     public static void main(String[] args) {
-        
+        LinkedList li = new LinkedList();
+        li.insertAtEnd(4);
+        li.insertAtEnd(5);
+        li.insertAtEnd(1);
+        li.insertAtEnd(5);
+        li.insertAtEnd(4);
+        // li.insertAtEnd(2);
+        // li.insertAtEnd(1);
+        li.Display();
     }
 }
