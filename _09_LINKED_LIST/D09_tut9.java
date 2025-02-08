@@ -80,5 +80,9 @@ public class D09_tut9 {
         // li.insertAtEnd(2);
         // li.insertAtEnd(1);
         li.Display();
+        System.out.println(li.checkPalindrom(li.head));
+        System.out.println(li.head.data);
+        System.out.println(li.tail.data);
+        System.out.println(li.size);
     }
 }
