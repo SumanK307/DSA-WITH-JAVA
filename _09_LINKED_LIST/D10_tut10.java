@@ -74,6 +74,12 @@ public class D10_tut10 {
             li.insertAtEnd(2);
             li.insertAtEnd(12);
             li.Display(li.head);
+            System.out.println("Middle is:"+li.middle(li.head)); 
+            li.middleDelete(li.head); 
+            li.Display(li.head);
+            System.out.println("Head:"+li.head.data);
+            System.out.println("tail:"+li.tail.data);
+            System.out.println("size:"+li.size);
     }
 }
 
