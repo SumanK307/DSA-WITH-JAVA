@@ -35,6 +35,36 @@ public class D10_tut10 {
             }
             size++;
         }
+        //LC Question-no(876)-> find middle node in LL
+
+        int middle(Node head){
+            Node slow = head;
+            Node fast = head;
+            //while( fast.next.next != null )           //for even no node(left node)  
+            while( fast != null && fast.next != null)   //even no(right node) && for odd no
+            {
+                slow = slow.next;
+                fast = fast.next.next;
+            } 
+            return slow.data;
+        }
+    //LC Question-no(2095)-> delete middle node in LL
+    
+        void middleDelete(Node head){
+            Node slow = head;
+            Node fast = head;
+            // if(head.next == null)        //empty node
+            //     return null;
+
+            //while(fast.next.next.next.next != null )                  //for even no node(left node) 
+            while(fast.next.next != null && fast.next.next.next != null)//even no(right node) && for odd no  
+            {
+                slow = slow.next;
+                fast = fast.next.next;
+            } 
+            slow.next = slow.next.next;
+        }
+    }
     public static void main(String[] args) {
         
     }
