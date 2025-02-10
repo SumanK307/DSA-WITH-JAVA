@@ -72,7 +72,7 @@ public class D10_tut10 {
             li.insertAtEnd(8);
             li.insertAtEnd(9);
             li.insertAtEnd(2);
-            li.insertAtEnd(12);
+            li.insertAtEnd(11);
             li.Display(li.head);
             System.out.println("Middle is:"+li.middle(li.head)); 
             li.middleDelete(li.head); 
