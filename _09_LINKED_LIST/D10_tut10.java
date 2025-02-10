@@ -36,7 +36,6 @@ public class D10_tut10 {
             size++;
         }
         //LC Question-no(876)-> find middle node in LL
-
         int middle(Node head){
             Node slow = head;
             Node fast = head;
