@@ -48,7 +48,6 @@ public class D10_tut10 {
             return slow.data;
         }
     //LC Question-no(2095)-> delete middle node in LL
-    
         void middleDelete(Node head){
             Node slow = head;
             Node fast = head;
