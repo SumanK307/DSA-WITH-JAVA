@@ -14,7 +14,6 @@ public class D10_tut10 {
         Node head = null;
         Node tail = null;
         int size = 0;
-
         void Display(Node head) {
             Node temp = head;
             while (temp != null) {
@@ -23,7 +22,6 @@ public class D10_tut10 {
             }
             System.out.println();
         }
-
         void insertAtEnd(int val) {
             Node temp = new Node(val);
             if (head == null) {
