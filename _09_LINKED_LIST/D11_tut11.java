@@ -66,5 +66,7 @@ public class D11_tut11 {
         c.next = d;
         d.next = e;
         e.next = c;
+        System.out.println(hasCycle(a));
+        System.out.println(findCycleNode(a));
     }
 }
