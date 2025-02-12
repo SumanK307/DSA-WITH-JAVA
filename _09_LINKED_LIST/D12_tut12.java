@@ -90,6 +90,20 @@ public class D12_tut12{
 }
 
     public static void main(String[] args) {
-        
+        LinkedList li1 = new LinkedList();
+        LinkedList li2 = new LinkedList();
+        LinkedList li = new LinkedList();
+        li1.insertAtEnd(1);
+        li1.insertAtEnd(3);
+        li1.insertAtEnd(5);
+        li1.insertAtEnd(7);
+        li1.insertAtEnd(9);
+        System.out.print("LL1: ");
+        li1.Display(li1.head);
+        li2.insertAtEnd(2);
+        li2.insertAtEnd(4);
+        li2.insertAtEnd(6);
+        li2.insertAtEnd(8);
+        li2.insertAtEnd(10);
     }
 }
