@@ -36,6 +36,59 @@ public class D12_tut12{
             System.out.println();
         }
     // Using Extra space 
+    Node Merge(Node head1, Node head2) {
+        Node temp1 = head1;
+        Node temp2 = head2;
+        Node head = new Node(100);
+        Node temp = head;
+        while(temp1 != null && temp2 != null){
+            if (temp1.data > temp2.data) {
+                Node tem = new Node(temp2.data);
+                 temp.next = tem;
+                 temp = tem;
+                 temp2 = temp2.next;
+            } 
+            else{
+                Node tem = new Node(temp1.data);
+                temp.next = tem;
+                temp = tem;
+                temp1 = temp1.next;
+            }
+        }
+        if(temp1 == null)
+            temp.next = temp2;
+        else
+            temp.next = temp1;
+        return head.next;
+    }
+    //Without using extra space
+    Node Merge2(Node head1, Node head2) {
+        Node temp1 = head1;
+        Node temp2 = head2;
+        Node head = new Node(100);
+        Node temp = head;
+        while(temp1 != null && temp2 != null){
+            if (temp1.data > temp2.data) {
+                //Node tem = new Node(temp2.data);
+                 temp.next = temp2;
+                 temp = temp2;
+                 temp2 = temp2.next;
+            } 
+            else{
+                //Node tem = new Node(temp1.data);
+                temp.next = temp1;
+                temp = temp1;
+                temp1 = temp1.next;
+            }
+        }
+        if(temp1 == null)
+            temp.next = temp2;
+        else
+            temp.next = temp1;
+        return head.next;
+    }
+}
+
     public static void main(String[] args) {
         
     }
