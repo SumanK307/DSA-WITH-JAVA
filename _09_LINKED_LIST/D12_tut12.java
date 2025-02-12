@@ -105,5 +105,20 @@ public class D12_tut12{
         li2.insertAtEnd(6);
         li2.insertAtEnd(8);
         li2.insertAtEnd(10);
+        System.out.print("LL2: ");
+        li2.Display(li2.head);
+        System.out.print("Sorted Array:");
+        // li.Display(li.Merge(li1.head, li2.head));
+        // System.out.println("Head1:"+li1.head.data);
+        // System.out.println("tail1:"+li1.tail.data);
+        // System.out.println("size1:"+li1.size);
+        // System.out.println("Head2:"+li2.head.data);
+        // System.out.println("tail2:"+li2.tail.data);
+
+        // System.out.println("size2:"+li2.size);
+        // System.out.println("Head:"+li.head.data);
+        // System.out.println("tail:"+li.tail.data);
+        // System.out.println("size:"+li.size);
+        li.Display(li.Merge2(li1.head, li2.head));
     }
 }
