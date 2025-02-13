@@ -115,10 +115,10 @@ public class D12_tut12{
         System.out.println("Head2:"+li2.head.data);
         System.out.println("tail2:"+li2.tail.data);
 
-        // System.out.println("size2:"+li2.size);
-        // System.out.println("Head:"+li.head.data);
-        // System.out.println("tail:"+li.tail.data);
-        // System.out.println("size:"+li.size);
+        System.out.println("size2:"+li2.size);
+        System.out.println("Head:"+li.head.data);
+        System.out.println("tail:"+li.tail.data);
+        System.out.println("size:"+li.size);
         li.Display(li.Merge2(li1.head, li2.head));
     }
 }
