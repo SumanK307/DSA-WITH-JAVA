@@ -108,8 +108,8 @@ public class D12_tut12{
         System.out.print("LL2: ");
         li2.Display(li2.head);
         System.out.print("Sorted Array:");
-        // li.Display(li.Merge(li1.head, li2.head));
-        // System.out.println("Head1:"+li1.head.data);
+        li.Display(li.Merge(li1.head, li2.head));
+        System.out.println("Head1:"+li1.head.data);
         // System.out.println("tail1:"+li1.tail.data);
         // System.out.println("size1:"+li1.size);
         // System.out.println("Head2:"+li2.head.data);
