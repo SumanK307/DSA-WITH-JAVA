@@ -57,6 +57,13 @@ public class D13_tut13 {
         }
     }
     public static void main(String[] args) {
-        
+        LinkedList li = new LinkedList();
+        li.insertAtEnd(12);
+        li.insertAtEnd(1);
+        li.insertAtEnd(5);
+        li.insertAtEnd(7);
+        li.insertAtEnd(8);
+        li.insertAtEnd(4);
+        li.insertAtEnd(3);
     }
 }
