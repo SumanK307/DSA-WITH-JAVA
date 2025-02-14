@@ -24,6 +24,38 @@ public class D13_tut13 {
             }
             size++;
         }
+        void Display(Node head) {
+            Node temp = head;
+            while (temp != null) {
+                System.out.print(temp.data + " ");
+                temp = temp.next;
+            }
+            System.out.println();
+        }
+        void OddEven(Node head){
+            Node temp  = head;
+            Node head1 = new Node(10);
+            Node temp1 = head1;
+            Node head2 = new Node(11);
+            Node temp2 = head2;
+            while(temp!=null){
+                if(temp1 != null && temp.data % 2 == 0){
+                    temp1.next = temp;
+                    temp1 = temp1.next;
+                    temp = temp.next;
+                }
+                else if(temp2 != null && temp.data % 2 != 0){
+                    temp2.next = temp;
+                    temp2 = temp2.next;
+                    temp = temp.next;
+                }
+            }
+            System.out.print("Enen:");
+            Display(head1.next);
+            System.out.print("Odd:");
+            Display(head2.next);
+        }
+    }
     public static void main(String[] args) {
         
     }
