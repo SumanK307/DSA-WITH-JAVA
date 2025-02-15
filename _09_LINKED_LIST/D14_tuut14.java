@@ -35,6 +35,20 @@ public class D14_tuut14 {
             }
             System.out.println();
         }
+        int RemoveDuplicate(Node head){
+            Node temp = head;
+            while(temp != null){
+                if(temp.next == null) return -1;
+                if(temp.data == temp.next.data){
+                    // if(temp.next.next == null) return -1;
+                    temp.next = temp.next.next;
+                }
+                temp = temp.next;
+            }
+            return 1;
+        }
+
+    }
     public static void main(String[] args) {
         
     }
