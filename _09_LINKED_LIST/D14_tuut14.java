@@ -50,6 +50,12 @@ public class D14_tuut14 {
 
     }
     public static void main(String[] args) {
-        
+        LinkedList li = new LinkedList();
+        li.insertAtEnd(12);
+        li.insertAtEnd(12);
+        li.insertAtEnd(3);
+        li.insertAtEnd(4);
+        li.insertAtEnd(4);
+        li.insertAtEnd(1);
     }
 }
