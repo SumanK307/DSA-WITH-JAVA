@@ -37,6 +37,20 @@ public class D15_tut15 {
         System.out.println();
     }
     public static void main(String[] args) {
-        
+        Node a = new Node(5);
+        Node b = new Node(7);
+        Node c = new Node(2);
+        Node d = new Node(1);
+        Node e = new Node(8);
+        a.prev = null;
+        a.next = b;
+        b.prev = a;
+        b.next = c;
+        c.prev = b;
+        c.next = d;
+        d.prev = c;
+        d.next = e;
+        e.prev = d;
+        e.next = null;
     }
 }
