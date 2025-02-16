@@ -25,6 +25,17 @@ public class D15_tut15 {
         }
         System.out.println();
     }
+    public static void display3(Node random){
+        Node temp = random;
+        while(temp.prev != null){
+            temp = temp.prev;
+        }
+        while(temp != null){
+            System.out.print(temp.data+" ");
+             temp = temp.next;
+        }
+        System.out.println();
+    }
     public static void main(String[] args) {
         
     }
