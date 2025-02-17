@@ -55,7 +55,7 @@ public class D15_tut15 {
          //always->  Tail.next = null & head.prve = null;
         System.out.print("By head!");
          display(a);
-         System.out.print("By Tail:");
+         System.out.print("By Tail!");
          display2(e);
          System.out.print("By Random:");
          display3(c);
