@@ -53,7 +53,7 @@ public class D15_tut15 {
         e.prev = d;
         e.next = null;
          //always->  Tail.next = null & head.prve = null;
-         System.out.print("By head:");
+        System.out.print("By head!");
          display(a);
          System.out.print("By Tail:");
          display2(e);
