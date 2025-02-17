@@ -57,7 +57,7 @@ public class D15_tut15 {
          display(a);
          System.out.print("By Tail!");
          display2(e);
-         System.out.print("By Random:");
+         System.out.print("By Random!");
          display3(c);
     }
 }
