@@ -36,6 +36,23 @@ public class D16_tut16 {
             }
             size++;
         }
+        void insertAttail(int val){
+            Node temp = new Node(val);
+            if(head == null){
+                temp.prev = null;
+                head  = temp;
+                tail = temp;
+                tail.next = null;
+            }
+            else{
+                tail.next = temp;;
+                temp.prev = tail;
+                tail = temp;
+            }
+            size++;
+        }
+
+    }
     public static void main(String[] args) {
         
     }
