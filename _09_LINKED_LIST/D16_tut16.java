@@ -22,6 +22,20 @@ public class D16_tut16 {
             }
             System.out.println();
         }
+        void insertAtHead(int val){
+            Node temp = new Node(val);
+            if(head == null){
+                temp.prev = null;
+                head  = temp;
+                tail = temp;
+            }
+            else{
+                temp.prev = null;
+                temp.next = head;
+                head = temp;
+            }
+            size++;
+        }
     public static void main(String[] args) {
         
     }
