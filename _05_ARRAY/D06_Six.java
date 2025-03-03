@@ -14,8 +14,8 @@ public class D06_Six {
                 return mid;
             }
             else if(n*n < n){
-                ans=mid;
-                s=mid+1;
+                ans = mid;
+                s = mid+1;
             }
             else{
                 e = mid-1;
