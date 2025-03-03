@@ -8,9 +8,9 @@ public class D06_Six {
         int e=n;
         int mid;
         int ans=-1;
-        while(s<=e){
-            mid=s+(e-s)/2;
-            if(n*n==n){
+        while(s <= e){
+            mid = s+(e-s)/2;
+            if(n*n == n){
                 return mid;
             }
             else if(n*n < n){
