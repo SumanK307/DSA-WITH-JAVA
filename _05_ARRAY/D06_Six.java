@@ -13,7 +13,7 @@ public class D06_Six {
             if(n*n==n){
                 return mid;
             }
-            else if(n*n<n){
+            else if(n*n < n){
                 ans=mid;
                 s=mid+1;
             }
