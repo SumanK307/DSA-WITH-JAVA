@@ -21,9 +21,9 @@ public class D06_Six {
                 e = mid-1;
             }
         }
-        return ans;
+    return ans;
         }
-        
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the value of n:");  
