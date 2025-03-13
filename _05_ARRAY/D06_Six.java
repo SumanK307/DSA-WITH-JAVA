@@ -9,7 +9,7 @@ public class D06_Six {
         int mid;
         int ans=-1;
         while(s <= e){
-            mid = s+(e-s)/2;
+            mid = s + (e-s)/2;
             if(n*n == n){
                 return mid;
             }
