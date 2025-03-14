@@ -11,7 +11,7 @@ public class D11_3Sort {
     }
     static void swap(int[] arr, int i,int j){
         arr[i] = arr[i]+arr[j];
-        arr[j]=arr[i]-arr[j];
+        arr[j] = arr[i]-arr[j];
         arr[i]=arr[i]-arr[j];
     }
     static void sortEvenOdd(int[] arr,int n){  
