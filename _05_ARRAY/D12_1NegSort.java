@@ -19,7 +19,7 @@ public class D12_1NegSort {
     static void swap(int[] arr, int i,int j){
         arr[i] = arr[i]+arr[j];
         arr[j] = arr[i]-arr[j]; 
-        arr[i]=arr[i]-arr[j];
+        arr[i] = arr[i]-arr[j];
 }
     //************************* (Q..1) sort Arr̥ay of -ve containing element square*************************/
     static int[] sortSquares(int[] arr,int n){
