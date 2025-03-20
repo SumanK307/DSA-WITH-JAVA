@@ -13,7 +13,7 @@ public class D14_tut {
     }
     static void swap(int[][] arr, int i,int j){
         arr[i][j] = arr[i][j]+arr[j][i];
-        arr[j][i]=arr[i][j]-arr[j][i];
+        arr[j][i] = arr[i][j]-arr[j][i];
         arr[i][j]=arr[i][j]-arr[j][i];
     }
     static void reverseArray(int[] arr){ 
