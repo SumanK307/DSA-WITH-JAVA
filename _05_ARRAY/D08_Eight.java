@@ -12,9 +12,9 @@ public class D08_Eight {
     }
     //**********************(Q.1)By using Extra space Rotate Array***********************/
     static int[] Rotate(int[] arr , int k , int n){       //Array Function
-        k = k%n;
+        k = k % n;
         int[] ans = new int[n];  
-        int j=0;
+        int j = 0;
         for (int i = n-k; i<n ; i++) {
             ans[j++]=arr[i];
         }
