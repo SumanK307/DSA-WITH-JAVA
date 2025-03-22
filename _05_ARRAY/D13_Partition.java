@@ -20,7 +20,7 @@ public class D13_Partition{
     }
     static int[] PrefixSum(int[] arr,int n){
         for (int i = 1; i < n; i++) {
-            arr[i]+=arr[i-1];
+            arr[i] += arr[i-1];
         }
         return arr;
     }
