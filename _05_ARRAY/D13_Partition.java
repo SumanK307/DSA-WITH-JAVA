@@ -31,7 +31,7 @@ public class D13_Partition{
         int[] arr = new int[n];
         System.out.print("Enter Array element:");
         for(int i=0;i<n;i++){
-            arr[i]=sc.nextInt();
+            arr[i] = sc.nextInt();
         }
         System.out.print("Original Array is:");
         printArray(arr,n);
