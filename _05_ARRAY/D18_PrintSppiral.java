@@ -23,7 +23,6 @@ public class D18_PrintSppiral {
                 temp++;
             }
             rightCol--;
-
             // bottomrow --> rightcol to leftcol
             for (int i = rightCol; i >= leftCol && totalElement < r * c; i--) {
                 arr2[bottomRow][i]=temp;
