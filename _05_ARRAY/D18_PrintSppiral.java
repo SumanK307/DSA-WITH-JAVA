@@ -30,7 +30,6 @@ public class D18_PrintSppiral {
                 temp++;
             }
             bottomRow--;
-
             // leftCol --> bottomRow to topRow
             for (int i = bottomRow; i >= topRow && totalElement < r * c; i--) {
                 arr2[i][leftCol]=temp;
