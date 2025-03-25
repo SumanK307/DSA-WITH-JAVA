@@ -1,5 +1,4 @@
 package _05_ARRAY;
-
 import java.util.Scanner;
 
 public class D18_PrintSppiral {
