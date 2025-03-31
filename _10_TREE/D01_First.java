@@ -16,6 +16,12 @@ public class D01_First {
         static class BinaryTree{
             static int idx = -1;
 
+            public static Node buildTree(int nodes[]){
+                idx++;
+                if(nodes[idx] == -1){
+                    return null;
+                }
+            }
         }
     public static void main(String[] args) {
 
