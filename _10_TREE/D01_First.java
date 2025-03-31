@@ -21,6 +21,10 @@ public class D01_First {
                 if(nodes[idx] == -1){
                     return null;
                 }
+                Node newNode = new Node(nodes[idx]);
+                newNode.left = buildTree(nodes); 
+                newNode.right = buildTree(nodes); 
+                return newNode;
             }
         }
     public static void main(String[] args) {
