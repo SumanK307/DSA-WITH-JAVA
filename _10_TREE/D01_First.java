@@ -64,5 +64,7 @@ public class D01_First {
         tree.inorder(root);
         System.out.println();
         tree.postorder(root);
+        System.out.println();
+        tree.levelOrder(root);
     }
 }
