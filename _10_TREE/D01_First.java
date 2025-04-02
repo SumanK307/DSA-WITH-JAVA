@@ -53,6 +53,14 @@ public class D01_First {
             postorder(root.right);
             System.out.print(root.data+" ");
         }
+
+        public static void levelOrder(Node root){
+            if(root == null){
+                return;
+            }
+            Queue<Node> q = new LinkedList<>();
+            q.add(root);
+            q.add(null);
     }
     public static void main(String[] args) {
         int nodes[] = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
