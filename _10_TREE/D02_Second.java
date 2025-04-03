@@ -11,6 +11,11 @@ public class D02_Second{
             this.right = null;
         }
     }
+     // Height of tree
+     public static int height(Node root){
+        if (root == null) {
+            return 0;
+        }
 
     public static void main(String[] args) {
         Node root = new Node(1);
