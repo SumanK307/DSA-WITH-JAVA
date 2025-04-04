@@ -50,5 +50,6 @@ public class D02_Second{
         root.right.right = new Node(7);
         System.out.println(height(root));
         System.out.println(count(root));
+        System.out.println(sum(root));
     }
 }
