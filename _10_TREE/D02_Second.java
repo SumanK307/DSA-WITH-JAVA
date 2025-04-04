@@ -30,6 +30,16 @@ public class D02_Second{
         int rightCnt = count(root.right);
         return leftCnt+rightCnt+1;
     }
+
+    //sum of node data 
+    public static int sum(Node root){
+        if(root == null){
+            return 0;
+        }
+        int leftSum = sum(root.left);
+        int rightSum = sum(root.right);
+        return leftSum + rightSum + root.data;
+    }
     public static void main(String[] args) {
         Node root = new Node(1);
         root.left = new Node(2);
