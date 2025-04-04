@@ -49,5 +49,6 @@ public class D02_Second{
         root.right.left = new Node(6);
         root.right.right = new Node(7);
         System.out.println(height(root));
+        System.out.println(count(root));
     }
 }
