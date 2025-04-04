@@ -21,6 +21,15 @@ public class D02_Second{
         return Math.max(lh,rh) + 1;
     }
 
+    //Count of node in tree
+    public static int count(Node root){
+        if(root == null){
+            return 0;
+        }
+        int leftCnt = count(root.left);
+        int rightCnt = count(root.right);
+        return leftCnt+rightCnt+1;
+    }
     public static void main(String[] args) {
         Node root = new Node(1);
         root.left = new Node(2);
