@@ -45,7 +45,11 @@ public class D02_Second{
         if(root == null){
             return 0;
         }
-        
+        int leftDia = diameter(root.left);
+        int leftHt = height(root.left);
+        int rightDia = diameter(root.right);
+        int rightHt = height(root.right);
+
     public static void main(String[] args) {
         Node root = new Node(1);
         root.left = new Node(2);
