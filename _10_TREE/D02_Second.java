@@ -49,7 +49,9 @@ public class D02_Second{
         int leftHt = height(root.left);
         int rightDia = diameter(root.right);
         int rightHt = height(root.right);
-
+        int selfDia = leftHt+rightHt+1;
+        return Math.max(selfDia,Math.max(leftDia,rightDia));
+    }
     public static void main(String[] args) {
         Node root = new Node(1);
         root.left = new Node(2);
