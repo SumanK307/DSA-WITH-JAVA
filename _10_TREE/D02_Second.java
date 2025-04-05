@@ -40,6 +40,12 @@ public class D02_Second{
         int rightSum = sum(root.right);
         return leftSum + rightSum + root.data;
     }
+
+    public static int diameter(Node root){
+        if(root == null){
+            return 0;
+        }
+        
     public static void main(String[] args) {
         Node root = new Node(1);
         root.left = new Node(2);
