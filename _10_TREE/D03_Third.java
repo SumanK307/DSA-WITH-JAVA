@@ -42,5 +42,10 @@ public class D03_Third {
         root.left.right = new Node(5);
         root.right.left = new Node(6);
         root.right.right = new Node(7);
+
+        Node subRoot = new Node(2);
+        subRoot.left = new Node(4);
+        subRoot.right = new Node(5);
+        System.out.println(isSubtree(root, subRoot));
     }
 }
