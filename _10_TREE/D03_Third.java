@@ -26,7 +26,7 @@ public class D03_Third {
             return false;   
  
         if(root.data == subRoot.data){
-            if(isIdentical(root,subRoot))
+            //if(isIdentical(root,subRoot))
                 return true;
         }
         boolean leftAns = isSubtree(root.left, subRoot);
