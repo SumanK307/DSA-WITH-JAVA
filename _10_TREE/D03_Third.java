@@ -39,6 +39,10 @@ public class D03_Third {
         if(root == null){
             return;
         }
+        if(level == k){
+            System.out.println(root.data);
+            return;
+        }
     
     public static void main(String[] args) {
         Node root = new Node(1);
