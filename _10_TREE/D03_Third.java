@@ -33,6 +33,12 @@ public class D03_Third {
         boolean rightAns = isSubtree(root.right, subRoot);
         return leftAns || rightAns;
     }
+
+    // print Kth level node
+    public static void KLevel(Node root,int level,int k){
+        if(root == null){
+            return;
+        }
     
     public static void main(String[] args) {
         Node root = new Node(1);
