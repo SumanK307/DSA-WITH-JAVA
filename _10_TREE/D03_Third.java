@@ -43,6 +43,9 @@ public class D03_Third {
             System.out.println(root.data);
             return;
         }
+        KLevel(root.left, level+1, k);
+        KLevel(root.right, level+1, k);
+    }
     
     public static void main(String[] args) {
         Node root = new Node(1);
