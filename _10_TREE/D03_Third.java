@@ -60,6 +60,7 @@ public class D03_Third {
         subRoot.left = new Node(4);
         subRoot.right = new Node(5);
         System.out.println(isSubtree(root,subRoot));
+        KLevel(root, 1, 4); // level indicates where we start(1,2,3)
         System.out.println("");
     }
 }
