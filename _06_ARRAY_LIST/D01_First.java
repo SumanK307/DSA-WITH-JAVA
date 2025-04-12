@@ -56,7 +56,7 @@ public class D01_First {
         l.add(true);
         System.out.println(l);
         
-        // Q.1 reverse array list
+        // Q.1 Reverse array list
         ArrayList<Integer> list = new ArrayList<>();
         list.add(55);
         list.add(10);
