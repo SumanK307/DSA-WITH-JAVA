@@ -13,12 +13,12 @@ public class D01_First {
         System.out.println(i+" "+j);        //4 5.5
 
         ArrayList<Integer> l1 = new ArrayList<>();
-        //Add new element
+        // Add new element
         l1.add(5);
         l1.add(9);
         l1.add(15);
         l1.add(3);
-        //get an element at index i
+        // get an element at index i
         System.out.println(l1.get(2));  // 15
 
         //print through loop
