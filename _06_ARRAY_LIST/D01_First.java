@@ -8,7 +8,7 @@ public class D01_First {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         //Wrapper class
-        Integer i =Integer.valueOf(4);
+        Integer i = Integer.valueOf(4);
         Float j = Float.valueOf(5.5f);
         System.out.println(i+" "+j);        //4 5.5
 
