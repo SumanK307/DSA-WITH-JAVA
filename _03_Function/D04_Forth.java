@@ -11,7 +11,7 @@ public class D04_Forth {
             System.out.println("B grade.");
         } 
         else if (marks >= 65 && marks < 75) {
-            System.out.println("A grade");
+            System.out.println("A grade.");
         } 
         else if (marks >= 75 && marks < 100) {
             System.out.println("O grade!");
