@@ -8,7 +8,7 @@ public class D04_Forth {
             System.out.println("Fail ho");
         } 
         else if (marks >= 35 && marks < 65) {
-            System.out.println("B grade");
+            System.out.println("B grade.");
         } 
         else if (marks >= 65 && marks < 75) {
             System.out.println("A grade");
