@@ -13,7 +13,7 @@ public class D07_Seventh {
         else{
             System.out.println("Both the characters " + c1 + " and " + c2 + " are same and value is= " + c1);
         }
-        }
+    }
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
