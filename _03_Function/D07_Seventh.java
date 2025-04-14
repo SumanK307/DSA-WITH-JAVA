@@ -20,6 +20,6 @@ public class D07_Seventh {
         char c1 = 'A';
         char c2 = 'a';
         System.out.println("Now run:");
-        compare(c1, c2);
+        compare(c1,c2);
     }
 }
