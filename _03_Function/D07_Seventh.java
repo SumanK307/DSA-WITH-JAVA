@@ -1,7 +1,5 @@
 package _03_Function;
 
-import java.util.Scanner;
-
 public class D07_Seventh {
     public static void compare(char c1 , char c2) {
         if ((int) c1 > (int) c2){
@@ -16,7 +14,6 @@ public class D07_Seventh {
     }
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
         char c1 = 'A';
         char c2 = 'a';
         System.out.println("Now run:");
