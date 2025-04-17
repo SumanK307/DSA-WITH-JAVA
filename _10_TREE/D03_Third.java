@@ -1,33 +1,36 @@
 package _10_TREE;
 
 public class D03_Third {
-    static class Node{
+    static class Node {
         int data;
         Node left;
         Node right;
-        Node(int data){
+
+        Node(int data) {
             this.data = data;
             this.left = null;
             this.right = null;
         }
     }
-    static class Info{
+
+    static class Info {
         int dia;
         int ht;
-        public Info(int dia,int ht){
+
+        public Info(int dia, int ht) {
             this.dia = dia;
             this.ht = ht;
         }
     }
 
     // is this subtree
-    public static boolean isSubtree(Node root,Node subRoot){
-        if(root == null)
-            return false;   
- 
-        if(root.data == subRoot.data){
-            //if(isIdentical(root,subRoot))
-                return true;
+    public static boolean isSubtree(Node root, Node subRoot) {
+        if (root == null)
+            return false;
+
+        if (root.data == subRoot.data) {
+            // if(isIdentical(root,subRoot))
+            return true;
         }
         boolean leftAns = isSubtree(root.left, subRoot);
         boolean rightAns = isSubtree(root.right, subRoot);
@@ -35,18 +38,18 @@ public class D03_Third {
     }
 
     // print Kth level node
-    public static void KLevel(Node root,int level,int k){
-        if(root == null){
+    public static void KLevel(Node root, int level, int k) {
+        if (root == null) {
             return;
         }
-        if(level == k){
+        if (level == k) {
             System.out.println(root.data);
             return;
         }
-        KLevel(root.left, level+1, k);
-        KLevel(root.right, level+1, k);
+        KLevel(root.left, level + 1, k);
+        KLevel(root.right, level + 1, k);
     }
-    
+
     public static void main(String[] args) {
         Node root = new Node(1);
         root.left = new Node(2);
@@ -59,7 +62,7 @@ public class D03_Third {
         Node subRoot = new Node(2);
         subRoot.left = new Node(4);
         subRoot.right = new Node(5);
-        System.out.println(isSubtree(root,subRoot));
+        System.out.println(isSubtree(root, subRoot));
         KLevel(root, 1, 4); // level indicates where we start(1,2,3)
         System.out.println("");
     }
