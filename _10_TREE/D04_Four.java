@@ -16,6 +16,9 @@ public class D04_Four {
             root = new Node(val);
             return root;
         }
+        if(root.data > val){
+            root.left = insert(root.left,val);
+        }
 
     public static void main(String[] args) {
         int values[] = { 5, 1, 3, 4, 2, 7 };
