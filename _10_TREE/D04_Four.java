@@ -19,6 +19,11 @@ public class D04_Four {
         if(root.data > val){
             root.left = insert(root.left,val);
         }
+        else{
+            root.right = insert(root.right, val);
+        }
+        return root;
+    }
 
     public static void main(String[] args) {
         int values[] = { 5, 1, 3, 4, 2, 7 };
