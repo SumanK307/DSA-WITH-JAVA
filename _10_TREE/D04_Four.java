@@ -10,6 +10,12 @@ public class D04_Four {
             this.data = data;
         }
     }
+     //*************Insert in BST */
+    public static Node insert(Node root , int val){
+        if(root == null){
+            root = new Node(val);
+            return root;
+        }
 
     public static void main(String[] args) {
         int values[] = { 5, 1, 3, 4, 2, 7 };
