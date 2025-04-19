@@ -52,7 +52,7 @@ public class D02_Second {
         int rightDia = diameter(root.right);
         int rightHt = height(root.right);
         int selfDia = leftHt + rightHt + 1;
-        return Math.max(selfDia, Math.max(leftDia, rightDia));
+        return Math.max(selfDia, Math.max(leftDia,rightDia));
     }
 
     public static void main(String[] args) {
