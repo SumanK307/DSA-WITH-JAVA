@@ -30,7 +30,7 @@ public class D02_Second {
         }
         int leftCnt = count(root.left);
         int rightCnt = count(root.right);
-        return leftCnt+rightCnt + 1;
+        return leftCnt+rightCnt+1;
     }
 
     // sum of node data
