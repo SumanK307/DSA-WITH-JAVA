@@ -24,6 +24,11 @@ public class D04_Four {
         }
         return root;
     }
+    public static Node inorder(root.left);
+        System.out.print(root.data+" ");
+        inorder(root.right);
+    }
+
 
     public static void main(String[] args) {
         int values[] = { 5, 1, 3, 4, 2, 7 };
