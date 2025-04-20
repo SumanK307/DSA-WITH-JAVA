@@ -24,6 +24,8 @@ public class D04_Four {
         }
         return root;
     }
+
+    
     public static Node inorder(root.left);
         System.out.print(root.data+" ");
         inorder(root.right);
