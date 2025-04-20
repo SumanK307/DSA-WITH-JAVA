@@ -29,7 +29,12 @@ public class D04_Four {
         inorder(root.right);
     }
 
-
+    public static boolean Search(Node root,int key){
+        if(root == null)
+            return false;
+        if(root.data == key)
+            return true;
+            
     public static void main(String[] args) {
         int values[] = { 5, 1, 3, 4, 2, 7 };
         Node root = null;
