@@ -53,6 +53,14 @@ public class D04_Four {
                 return null;
             if(root.left == null)
                 return root.right;
+                else if(root.right == null)
+                return root.left;
+            Node IS = findInorderSuccessor(root.right);
+            root.data = IS.data;
+            root.right = delete(root.right, IS.data);
+        }
+        return root;
+    }
     
     public static void main(String[] args) {
         int values[] = { 5, 1, 3, 4, 2, 7 };
