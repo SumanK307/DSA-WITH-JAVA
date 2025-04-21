@@ -41,6 +41,15 @@ public class D04_Four {
         else
             return Search(root.right, key);
     }
+
+    //*****************Delete node in BST */
+    public static Node delete(Node root,int val){
+        if(root.data < val)
+            root.right = delete(root.right, val);
+        else if(root.data > val)
+            root.left  = delete(root.left, val);
+        
+    
     public static void main(String[] args) {
         int values[] = { 5, 1, 3, 4, 2, 7 };
         Node root = null;
