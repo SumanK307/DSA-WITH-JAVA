@@ -48,7 +48,11 @@ public class D04_Four {
             root.right = delete(root.right, val);
         else if(root.data > val)
             root.left  = delete(root.left, val);
-        
+        else{
+            if(root.left == null && root.right == null)
+                return null;
+            if(root.left == null)
+                return root.right;
     
     public static void main(String[] args) {
         int values[] = { 5, 1, 3, 4, 2, 7 };
