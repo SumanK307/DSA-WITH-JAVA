@@ -34,7 +34,7 @@ public class D04_Four {
         System.out.print(root.data+" ");
         inorder(root.right);
     }
-
+    //*****************Search in BST */
     public static boolean Search(Node root,int key){
         if(root == null)
             return false;
@@ -65,7 +65,12 @@ public class D04_Four {
         }
         return root;
     }
-    
+    public static Node findInorderSuccessor(Node root){
+        while (root.left != null) {
+            root = root.left;
+        } 
+        return root;
+    }
     public static void main(String[] args) {
         int values[] = { 5, 1, 3, 4, 2, 7 };
         Node root = null;
