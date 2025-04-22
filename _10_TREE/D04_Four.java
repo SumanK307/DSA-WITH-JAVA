@@ -25,39 +25,39 @@ public class D04_Four {
         return root;
     }
 
-    
-    public static void inorder(Node root){
-        if(root == null){
+    public static void inorder(Node root) {
+        if (root == null) {
             return;
         }
         inorder(root.right);
-        System.out.print(root.data+" ");
+        System.out.print(root.data + " ");
         inorder(root.right);
     }
-    //*****************Search in BST */
-    public static boolean Search(Node root,int key){
-        if(root == null)
+
+    // *****************Search in BST */
+    public static boolean Search(Node root, int key) {
+        if (root == null)
             return false;
-        if(root.data == key)
+        if (root.data == key)
             return true;
-            if(root.data > key)
+        if (root.data > key)
             return Search(root.left, key);
         else
             return Search(root.right, key);
     }
 
-    //*****************Delete node in BST */
-    public static Node delete(Node root,int val){
-        if(root.data < val)
+    // *****************Delete node in BST */
+    public static Node delete(Node root, int val) {
+        if (root.data < val)
             root.right = delete(root.right, val);
-        else if(root.data > val)
-            root.left  = delete(root.left, val);
-        else{
-            if(root.left == null && root.right == null)
+        else if (root.data > val)
+            root.left = delete(root.left, val);
+        else {
+            if (root.left == null && root.right == null)
                 return null;
-            if(root.left == null)
+            if (root.left == null)
                 return root.right;
-                else if(root.right == null)
+            else if (root.right == null)
                 return root.left;
             Node IS = findInorderSuccessor(root.right);
             root.data = IS.data;
@@ -65,12 +65,14 @@ public class D04_Four {
         }
         return root;
     }
-    public static Node findInorderSuccessor(Node root){
+
+    public static Node findInorderSuccessor(Node root) {
         while (root.left != null) {
             root = root.left;
-        } 
+        }
         return root;
     }
+
     public static void main(String[] args) {
         int values[] = { 5, 1, 3, 4, 2, 7 };
         Node root = null;
