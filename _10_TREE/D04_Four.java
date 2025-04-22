@@ -31,6 +31,8 @@ public class D04_Four {
             return;
         }
         inorder(root.right);
+        System.out.print(root.data+" ");
+        inorder(root.right);
     }
 
     public static boolean Search(Node root,int key){
