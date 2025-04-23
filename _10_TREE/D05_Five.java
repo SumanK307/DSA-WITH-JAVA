@@ -1,5 +1,7 @@
 package _10_TREE;
 
 public class D05_Five {
-    
+    public static void main(String[] args) {
+        
+    }
 }
