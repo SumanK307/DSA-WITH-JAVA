@@ -33,6 +33,15 @@ public class D05_Five {
         }
     }
     public static void main(String[] args) {
-        
+        Node root = new Node(7);
+        root.left = new Node(4);
+        root.right = new Node(9);
+        root.left.left = new Node(2);
+        root.left.right = new Node(6);
+        root.right.left = new Node(8);
+        root.right.right = new Node(11);
+        inorder(root);
+        System.out.println();
+        printInRange(root, 4, 9);
     }
 }
