@@ -31,7 +31,7 @@ public class D05_Five {
         } else if (root.data < k1) {
             printInRange(root.left, k1, k2);
         } else {
-            printInRange(root.right, k1, k2);
+            printInRange(root.right,k1,k2);
         }
     }
 
