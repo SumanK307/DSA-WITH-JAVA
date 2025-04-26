@@ -45,6 +45,6 @@ public class D05_Five {
         root.right.right = new Node(11);
         inorder(root);
         System.out.println();
-        printInRange(root,4, 9);
+        printInRange(root,4,9);
     }
 }
