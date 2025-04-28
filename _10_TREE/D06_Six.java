@@ -10,6 +10,10 @@ public class D06_Six {
             this.data = data;
         }
     }
+    public static void preorder(Node root) {
+        if (root == null) {
+            return;
+        }
 
     public static void main(String[] args) {
         int arr[] = { 3, 5, 6, 8, 10, 11, 12 };
