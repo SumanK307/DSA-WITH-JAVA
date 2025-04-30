@@ -21,6 +21,10 @@ public class D07_Seven {
         preorder(root.left);
         preorder(root.right);
     }
+    public static void getInorder(Node root,ArrayList<Integer> ans){
+        if(root == null)
+            return;
+            
     public static void main(String[] args) {
         
     }
