@@ -24,7 +24,10 @@ public class D07_Seven {
     public static void getInorder(Node root,ArrayList<Integer> ans){
         if(root == null)
             return;
-            
+            getInorder(root.left, ans);
+            ans.add(root.data);
+            getInorder(root.right, ans);
+        }
     public static void main(String[] args) {
         
     }
