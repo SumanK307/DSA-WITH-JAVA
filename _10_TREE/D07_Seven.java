@@ -13,6 +13,11 @@ public class D07_Seven {
                 this.right = null;
             }
         }
+        public static void preorder(Node root) {
+            if (root == null) {
+                return;
+            }
+            
     public static void main(String[] args) {
         
     }
