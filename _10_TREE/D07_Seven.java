@@ -28,6 +28,11 @@ public class D07_Seven {
             ans.add(root.data);
             getInorder(root.right, ans);
         }
+        public static Node createBST(ArrayList<Integer> ans,int st,int end){
+        if(st>end)
+            return null;
+        int mid = (st+end)/2;
+        Node root = new Node(ans.get(mid));
     public static void main(String[] args) {
         
     }
