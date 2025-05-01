@@ -2,7 +2,6 @@ package _10_TREE;
 import java.util.ArrayList;
 
 public class D07_Seven {
-
         static class Node {
             int data;
             Node left;
@@ -42,7 +41,6 @@ public class D07_Seven {
         root.left = new Node(6);
         root.left.left = new Node(5);
         root.left.left.left = new Node(3); 
-
         root.right = new Node(10);
         root.right.right = new Node(11);
         root.right.right.right = new Node(12);
