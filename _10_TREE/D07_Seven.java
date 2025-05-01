@@ -33,6 +33,10 @@ public class D07_Seven {
             return null;
         int mid = (st+end)/2;
         Node root = new Node(ans.get(mid));
+         root.left = createBST(ans, st, mid-1);
+        root.right = createBST(ans, mid+1,end);
+        return root;
+    }
     public static void main(String[] args) {
         
     }
