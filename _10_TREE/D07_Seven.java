@@ -51,6 +51,6 @@ public class D07_Seven {
         root.right.right = new Node(11);
         root.right.right.right = new Node(12);
         root = balancedBST(root);
-
+        preorder(root);
     }
 }
