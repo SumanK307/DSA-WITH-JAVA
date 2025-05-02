@@ -36,6 +36,9 @@ public class D07_Seven {
         root.right = createBST(ans, mid+1,end);
         return root;
     }
+    public static Node balancedBST(Node root){
+        ArrayList<Integer> ans = new ArrayList<>();
+        getInorder(root, ans);
     public static void main(String[] args) {
         Node root = new Node(8);
         root.left = new Node(6);
