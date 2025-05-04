@@ -65,7 +65,7 @@ public class D13_tut13 {
         li.insertAtEnd(8);
         li.insertAtEnd(4);
         li.insertAtEnd(3);
-        System.out.print("LL1: ");
+        System.out.print("LL1:");
         li.Display(li.head);
         System.out.println("New Array:");
         li.OddEven(li.head);
