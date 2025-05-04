@@ -4,7 +4,7 @@ public class D13_tut13 {
     public static class Node {
         int data;
         Node next;
-        Node(int data) {
+        Node(int data){
             this.data = data;
         }
     }
