@@ -13,7 +13,7 @@ public class D13_tut13 {
         Node tail = null;
         int size = 0;
 
-        void insertAtEnd(int val) {
+        void insertAtEnd(int val){
             Node temp = new Node(val);
             if (head == null) { 
                 head = temp;
