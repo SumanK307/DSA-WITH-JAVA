@@ -18,7 +18,8 @@ public class D13_tut13 {
             if (head == null) { 
                 head = temp;
                 tail = temp;
-            } else { 
+            } 
+            else { 
                 tail.next = temp; 
                 tail = temp; 
             }
