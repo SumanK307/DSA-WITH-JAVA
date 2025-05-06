@@ -81,8 +81,8 @@ public class D02_tut2 {
         aq.remove();
         aq.add(5);
         System.out.println(aq.peek());
-        System.out.println("r"+aq.rear);
-        System.out.println("f"+aq.front);
+        System.out.println("r" + aq.rear);
+        System.out.println("f" + aq.front);
         System.out.println(aq.peek());
         System.out.println(aq.size());
         System.out.println(aq.arr.length);
