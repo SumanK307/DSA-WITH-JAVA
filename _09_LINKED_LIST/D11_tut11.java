@@ -52,7 +52,6 @@ public class D11_tut11 {
             }
             return slow.data;
         }
-
     public static void main(String[] args) {
         Node a = new Node(3);
         Node b = new Node(5);
