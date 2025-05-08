@@ -23,8 +23,6 @@ public class D11_tut11 {
             if(head == null || head.next == null )
                 return false;
             while(fast!=null){
-                // if(slow == null)
-                //     return false;
                 slow = slow.next;
                 if(fast.next == null)
                     return false;
