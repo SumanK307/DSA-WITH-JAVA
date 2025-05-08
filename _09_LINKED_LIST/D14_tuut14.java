@@ -60,7 +60,7 @@ public class D14_tuut14 {
         li.insertAtEnd(1);
         System.out.print("LL1: ");
         li.Display(li.head);
-        System.out.println("New Array:");
+        System.out.println("New Array: ");
         if(li.RemoveDuplicate(li.head) == -1){
             li.Display(li.head);
         }
