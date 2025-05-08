@@ -20,7 +20,8 @@ public class D14_tuut14 {
             if (head == null) {
                 head = temp;
                 tail = temp;
-            } else {
+            } 
+            else {
                 tail.next = temp;
                 tail = temp;
             }
