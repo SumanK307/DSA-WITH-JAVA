@@ -86,7 +86,7 @@ public class D04_tut4 {
         System.out.println("LL Size is:"+ li.size);
         li.Display();
         System.out.println("LL Size is:"+ li.size);
-        System.out.println("LL tail value is:"+li.tail.data);
+        System.out.println("LL tail value is:"+ li.tail.data);
         System.out.println("LL head value is:"+li.head.data);
     }    
 }
