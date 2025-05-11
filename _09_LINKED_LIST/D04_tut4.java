@@ -81,7 +81,7 @@ public class D04_tut4 {
         li.insertAtInd(9, 3);
         li.Display();
         System.out.println("LL tail value is:"+ li.tail.data);
-        System.out.println("LL head value is:"+li.head.data);
+        System.out.println("LL head value is:"+ li.head.data);
         // System.out.println("at index value is:"+li.getIndVal(3));
         System.out.println("LL Size is:"+ li.size);
         li.Display();
