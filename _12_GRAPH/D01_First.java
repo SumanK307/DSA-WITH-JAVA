@@ -1,10 +1,10 @@
 package _12_GRAPH;
 
 public class D01_First {
-    public class graph{
+    class graph{
         int edge;
         int value;
-        public static graph{
+        public  graph{
 
         }
     }
