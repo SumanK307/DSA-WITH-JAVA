@@ -4,6 +4,9 @@ public class D01_First {
     public class graph{
         int edge;
         int value;
+        public static graph{
+
+        }
     }
     public static void main(String[] args) {
         
