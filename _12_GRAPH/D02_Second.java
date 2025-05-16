@@ -2,8 +2,9 @@ package _12_GRAPH;
 
 public class D02_Second {
     public class Student{
+        int x;
         Student{
-            int x;
+            
         }
     }
     public static void main(String[] args) {
