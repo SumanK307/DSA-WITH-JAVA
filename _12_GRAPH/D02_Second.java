@@ -1,7 +1,7 @@
 package _12_GRAPH;
 
 public class D02_Second {
-    public class Student{
+    public static class Student{
         int x;
         Student{
             
