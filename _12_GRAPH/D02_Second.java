@@ -1,10 +1,8 @@
 package _12_GRAPH;
 
 public class D02_Second {
-    public static class Student{
-        int x;
-        Student{
-            
+   Node(int data){
+            this.data = data;
         }
     }
     public static void main(String[] args) {
