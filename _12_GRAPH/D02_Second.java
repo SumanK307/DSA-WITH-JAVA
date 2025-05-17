@@ -1,7 +1,10 @@
 package _12_GRAPH;
 
 public class D02_Second {
-   Node(int data){
+    public static class Node {
+        int data;
+        Node next;
+        Node(int data){
             this.data = data;
         }
     }
