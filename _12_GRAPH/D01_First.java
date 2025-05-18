@@ -8,6 +8,12 @@ public class D01_First {
             this.data = data;
         }
     }
+    public static class LinkedList{
+        Node head = null;
+        Node tail = null;
+        int size = 0;
+        void Display(Node head) {
+            Node temp = head;
     public static void main(String[] args) {
         int n;
         n=1;
