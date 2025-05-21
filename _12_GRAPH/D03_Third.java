@@ -14,6 +14,9 @@ public class D03_Third {
         int size = 0;
         void Display(Node head) {
             Node temp = head;
+            while (temp != null) {
+                System.out.print(temp.data+ " ");  
+                temp = temp.next;
     public static void main(String[] args) {
         
     }
