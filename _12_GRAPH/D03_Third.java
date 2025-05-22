@@ -23,5 +23,7 @@ public class D03_Third {
     }
     public static void main(String[] args) {
          LinkedList li = new LinkedList();
+         li.insertAtEnd(4);
+        li.insertAtEnd(5);
     }
 }
