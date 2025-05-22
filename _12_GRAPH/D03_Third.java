@@ -20,6 +20,9 @@ public class D03_Third {
                 }
             System.out.println();
         }
+        public static void insertAtEnd(Node n){
+            
+        }
     }
     public static void main(String[] args) {
          LinkedList li = new LinkedList();
